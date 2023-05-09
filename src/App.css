@@ -36,3 +36,8 @@
     transform: rotate(360deg);
   }
 }
+
+.dot > div > div > div {
+width: 4px !important;
+height: 4px !important;
+}
