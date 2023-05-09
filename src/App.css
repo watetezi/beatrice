@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
 .App {
   text-align: center;
 }
@@ -28,16 +30,36 @@
   color: #61dafb;
 }
 
+.dot>div>div>div {
+  width: 4px !important;
+  height: 4px !important;
+}
+
+.leaflet-control-attribution.leaflet-control {
+  display: none !important;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
 }
 
-.dot > div > div > div {
-width: 4px !important;
-height: 4px !important;
+.sentence{
+  font-family: 'IBM Plex Mono', monospace !important;  
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 400 !important;
+  font-size: 2.5em !important;
+  letter-spacing: 5px !important;
+  line-height: 1em !important;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgb(80, 80, 80);
+  text-shadow: 
+     10px 10px rgba(146, 145, 145, 0.1)  !important;
 }
