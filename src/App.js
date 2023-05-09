@@ -43,6 +43,7 @@ export default class App extends Component {
             <CardContent sx={{ maxWidth: 800 }}>
               <Typography className="sentence" sx={{ mt: 2 }}>My name is Beatrice and I am an Alur fisherwoman from Lake Albert</Typography>
             </CardContent>
+            <div id='portrait'> </div>
           </FullpageSection>
 
           <FullpageSection style={{
