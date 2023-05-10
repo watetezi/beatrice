@@ -49,27 +49,61 @@
   }
 }
 
-.sentence{
-  font-family: 'IBM Plex Mono', monospace !important;  
+.sentence {
+  font-family: 'IBM Plex Mono', monospace !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-weight: 400 !important;
   font-size: 2.5em !important;
   letter-spacing: 5px !important;
   line-height: 1em !important;
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: white;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: rgb(80, 80, 80);
-  text-shadow: 
-     10px 10px rgba(146, 145, 145, 0.1)  !important;
+  text-shadow:
+    10px 10px rgba(146, 145, 145, 0.1) !important;
+}
+
+.portrait {
+  background: url("../public/img/beatrice.png") no-repeat;
+  background-repeat: no-repeat;
+  background-size: 70vw;
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: bottom right;
 }
 
 #portrait {
   background: url("../public/img/beatrice.png") no-repeat;
   background-repeat: no-repeat;
-  background-size: 90vw;
+  background-size: 70vw;
   height: 100vh;
   background-attachment: fixed;
-  background-position: top center;
+  background-position: bottom right;
+}
 
+.MuiSnackbar-root.MuiSnackbar-anchorOriginBottomLeft.css-cpgvjg-MuiSnackbar-root {
+  position: relative;
+  margin-top: 24px;
+}
+
+.MuiPaper-root.MuiPaper-elevation.MuiPaper-elevation6.MuiSnackbarContent-root {
+  background-color: white;
+  font-family: 'IBM Plex Mono', monospace !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: lighter !important;
+  font-size: 0.3em !important;
+  box-shadow: none;
+  outline: 1px solid rgb(80, 80, 80);
+  outline-offset: 3px;
+}
+
+.MuiSvgIcon-root.MuiSvgIcon-fontSizeSmall{
+  color: rgba(80, 80, 80, 0.8);
+}
+
+.MuiTouchRipple-root.css-8je8zh-MuiTouchRipple-root{
+  outline: 1px solid rgba(146, 145, 145, 0.2);
+  outline-offset: -8px;
 }
