@@ -63,20 +63,20 @@ const App = () => {
           padding: '1em',
         }}>
           <CardContent sx={{ maxWidth: 800 }}>
-            <Typography component='div' className="sentence" sx={{ mt: 2 }}>My name is Beatrice and I am an Alur<Button onClick={handleClick}>^</Button>
+            <Typography component='div' className="sentence" sx={{ mt: 2 }}>My name is Beatrice and I am an Alur<Button onClick={handleClick}>ꔮ</Button>
               <Snackbar
                 open={open}
-                autoHideDuration={60000}
+                autoHideDuration={100000}
                 onClose={handleClose}
-                message="More than 60 percent of us fishers practise subsistence farming to supplement our livelihoods. Only slightly less than a third of us manage to subsist exclusively on fishing or fish trading. This means that some, regardless of their vocation as fishers, rely on fishing to diversify their livelihoods"
+                message=""
                 action={action}
               />
-              fisherwoman from Lake Albert<Button onClick={handleClick}>^</Button>
+              fisherwoman from Lake Albert<Button onClick={handleClick}>ꔮ</Button>
               <Snackbar
                 open={open}
-                autoHideDuration={60000}
+                autoHideDuration={100000}
                 onClose={handleClose}
-                message="Development contextual analysis p.12, RED list biodiversità o BII come immagine? O simulation CLIMA e cambiamento dell’uso del suolo?"
+                message="Who in recent centuries we have also called M'vouta-N'zighé (Wutan-Zigé) among Alur people"
                 action={action}
               /></Typography>
           </CardContent>
@@ -89,23 +89,24 @@ const App = () => {
           padding: '1em',
         }}>
           <CardContent sx={{ maxWidth: 800 }}>
-            <Typography component='div' className="sentence" sx={{ mt: 2 }}>I live in the village of Dei, exactly on the administrative border between Uganda and DRC. Our land is in a unique place,<Button onClick={handleClick}>^</Button>
+            <Typography component='div' className="sentence" sx={{ mt: 2 }}>I live in the village of Dei, exactly on the administrative border between Uganda and DRC. Our land is in a unique place,<Button onClick={handleClick}>ꔮ</Button>
               <Snackbar
                 open={open}
-                autoHideDuration={60000}
+                autoHideDuration={100000}
                 onClose={handleClose}
-                message="Development contextual analysis p.12, RED list biodiversità o BII come immagine? O simulation CLIMA e cambiamento dell’uso del suolo?"
+                message=""
                 action={action}
               /> a plain enclosed between the mountain and the lake
             </Typography>
           </CardContent>
         </FullpageSection>
 
-        <FullpageSection style={{
+        <FullpageSection className='basemap' style={{
           backgroundColor: 'white',
-          height: '80vh',
+          height: '100vh',
           padding: '1em',
         }}>
+          <Typography component='div' className="notemap" sx={{ mt: 2 }}>Interact with the map</Typography>
           <Basemap />
         </FullpageSection>
 
@@ -113,7 +114,10 @@ const App = () => {
           backgroundColor: 'white',
           height: '100vh',
           padding: '1em',
-        }}>3
+        }}>
+          <CardContent sx={{ maxWidth: 800 }}>
+            <Typography component='div' className="sentence" sx={{ mt: 2 }}>I fish for livelihood and cultivate garden to complement my subsistence</Typography>
+          </CardContent>
         </FullpageSection>
 
       </FullPageSections>

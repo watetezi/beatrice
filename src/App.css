@@ -30,6 +30,22 @@
   color: #61dafb;
 }
 
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
 .dot>div>div>div {
   width: 4px !important;
   height: 4px !important;
@@ -64,10 +80,49 @@
     10px 10px rgba(146, 145, 145, 0.1) !important;
 }
 
+.MuiButton-text {
+  -webkit-text-fill-color: rgb(114, 114, 114, 1);
+  -webkit-text-stroke-width: 0;
+  -webkit-text-stroke-color: rgb(114, 114, 114, .5);
+}
+
+.notemap {
+  font-family: 'IBM Plex Mono', monospace !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 100 !important;
+  font-size: 0.6em !important;
+  letter-spacing: 5px !important;
+  line-height: 1em !important;
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgb(114, 114, 114);
+  text-shadow:
+    10px 10px rgba(146, 145, 145, 0.1) !important;
+  padding-bottom: 20px !important;
+  text-align: center;
+  animation: opacity 2s ease-in-out infinite alternate;
+  opacity: 1;
+}
+
+@keyframes opacity {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0.5
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
 .portrait {
   background: url("../public/img/beatrice.png") no-repeat;
   background-repeat: no-repeat;
-  background-size: 70vw;
+  background-size: 50vw;
   height: 100vh;
   background-attachment: fixed;
   background-position: bottom right;
@@ -76,13 +131,13 @@
 #portrait {
   background: url("../public/img/beatrice.png") no-repeat;
   background-repeat: no-repeat;
-  background-size: 70vw;
+  background-size: 50vw;
   height: 100vh;
   background-attachment: fixed;
   background-position: bottom right;
 }
 
-.MuiSnackbar-root.MuiSnackbar-anchorOriginBottomLeft{
+.MuiSnackbar-root.MuiSnackbar-anchorOriginBottomLeft {
   position: relative;
   margin-top: 24px;
 }
@@ -97,13 +152,38 @@
   box-shadow: none;
   outline: 1px solid rgb(80, 80, 80);
   outline-offset: 3px;
+  height: 100px;
+  overflow:auto;
 }
 
-.MuiSvgIcon-root.MuiSvgIcon-fontSizeSmall{
+.MuiSvgIcon-root.MuiSvgIcon-fontSizeSmall {
   color: rgba(80, 80, 80, 0.8);
 }
 
-.MuiTouchRipple-root{
+.MuiTouchRipple-root {
   outline: 1px solid rgba(146, 145, 145, 0.2);
   outline-offset: -8px;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .sentence {
+    font-weight: 400 !important;
+    font-size: 1.5em !important;
+    letter-spacing: 4px !important;
+    line-height: 1.1em !important;
+  }
+
+  .MuiPaper-root.MuiPaper-elevation.MuiPaper-elevation6.MuiSnackbarContent-root {
+    font-size: 0.3em !important;
+  }
+
+  .portrait {
+    background-size: 100vw !important;
+    height: 100vh;
+  }
+
+  .basemap {
+    display: none;
+  }
 }
