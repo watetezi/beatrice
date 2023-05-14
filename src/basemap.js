@@ -24,7 +24,7 @@ return (
         maxZoom={16}
         maxBounds={outerbounds}
         maxBoundsViscosity={1.0}
-        style={{ height: "90vh", backgroundColor: 'white' }}>
+        style={{ height: "90vh", backgroundColor: 'rgb(252, 250, 247)' }}>
 
         <TileLayer
             url="https://www.alessandromusetta.com/geo/tiles/dei/{z}/{x}/{y}.png" />
