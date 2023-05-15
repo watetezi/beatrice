@@ -4,22 +4,19 @@ import * as React from "react"
 import Fullpage, { FullPageSections, FullpageSection, FullpageNavigation } from '@ap.cx/react-fullpage';
 
 import CardContent from '@mui/material/CardContent';
-import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import IconButton from '@mui/material/IconButton';
-import { useTheme } from '@mui/material/styles';
-import Popover from '@mui/material/Popover';
 import Button from '@mui/material/Button';
 import Snackbar from '@mui/material/Snackbar';
 import CloseIcon from '@mui/icons-material/Close';
 import { styled } from '@mui/material/styles';
-import Grid from '@mui/material/Grid';
 import Paper from '@mui/material/Paper';
-import Box from '@mui/material/Box';
 
 import Basemap from './basemap';
 import FishChallenges from './fishChallenges';
 import Fish from './fish';
+import Boat from './boat';
+import Kiln from './kiln';
  
 
 
@@ -120,7 +117,7 @@ const App = () => {
           height: '100vh',
           padding: '1em',
         }}>
-          <Typography component='div' className="notemap" sx={{ mt: 2 }}>Interact with the map</Typography>
+          <Typography component='div' className="notemap" sx={{ mt: 2 }}><a href='https://www.alessandromusetta.com/geo/tiles/dei/map.html' target='_blank' rel='noopener noreferrer'>Interact with the map</a></Typography>
           <Basemap />
         </FullpageSection>
 
@@ -147,8 +144,26 @@ const App = () => {
           height: '100vh',
           padding: '1em',
         }}>
+          < Boat />
+        </FullpageSection>
+
+
+        <FullpageSection style={{
+          backgroundColor: 'rgba(252, 250, 247, 1)',
+          height: '100vh',
+          padding: '1em',
+        }}>
+          < Kiln />
+        </FullpageSection>
+
+
+        <FullpageSection style={{
+          backgroundColor: 'rgba(252, 250, 247, 1)',
+          height: '100vh',
+          padding: '1em',
+        }}>
           <CardContent sx={{ maxWidth: 800 }}>
-            <Typography component='div' className="sentence" sx={{ mt: 2 }}>I cultivate garden to complement my subsistence</Typography>
+            <Typography component='div' className="sentence" sx={{ mt: 2 }}>For these reasons, I am forced to cultivate garden to complement my subsistence</Typography>
           </CardContent>
         </FullpageSection>
 

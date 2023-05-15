@@ -11,8 +11,6 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import IconButton from '@mui/material/IconButton';
-import { useTheme } from '@mui/material/styles';
-import Popover from '@mui/material/Popover';
 import Button from '@mui/material/Button';
 import Snackbar from '@mui/material/Snackbar';
 import CloseIcon from '@mui/icons-material/Close';
@@ -73,14 +71,14 @@ const Fish = () => {
                 <Snackbar
                     open={open}
                     autoHideDuration={100000}
-                    onClose={handleClose}
+                    onClose={handleCloseNote}
                     message="TO FIX> TO FIX> TO FIX> The typical fisher dealers at Dei are those who hire a boat from a ‘Boss’ and then hire a fisherman to go out and harvest fish for him/her in Lake Albert. He/she receives the fish and then sells it to others. The ‘others’ includes those that buy wholesale fresh fish and transport it to destinations outside Dei; those who buy fresh fish and sell it to consumers at Dei landing site; Those that buy fish, smoke it and then go and sell it to other markets outside of Dei Landing site"
                     action={action} />
             </Typography>
         </CardContent><Box sx={{ width: '100%' }}>
                 <Grid container rowSpacing={1} columnSpacing={{ xs: 1, sm: 2, md: 3 }}>
                     <Grid item xs={6}>
-                        <Item>
+                        <Item sx={{ height: '100%' }}>
                             <CardMedia
                                 component="img"
                                 alt="Rastrineobola argentea"
@@ -93,7 +91,7 @@ const Fish = () => {
                         </Item>
                     </Grid>
                     <Grid item xs={6}>
-                        <Item>
+                        <Item sx={{ height: '100%' }}>
                             <CardMedia
                                 component="img"
                                 alt="Brycinus nurse"
@@ -106,7 +104,7 @@ const Fish = () => {
                         </Item>
                     </Grid>
                     <Grid item xs={6}>
-                        <Item>
+                        <Item sx={{ height: '100%' }}>
                             <CardMedia
                                 component="img"
                                 alt="Alestes barenose"
@@ -119,7 +117,7 @@ const Fish = () => {
                         </Item>
                     </Grid>
                     <Grid item xs={6}>
-                        <Item>
+                        <Item sx={{ height: '100%' }}>
                             <CardMedia
                                 component="img"
                                 alt="Hydrocinus forskali"

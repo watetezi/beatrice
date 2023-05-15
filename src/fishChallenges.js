@@ -2,11 +2,8 @@ import './App.css';
 import * as React from "react"
 
 import CardContent from '@mui/material/CardContent';
-import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import IconButton from '@mui/material/IconButton';
-import { useTheme } from '@mui/material/styles';
-import Popover from '@mui/material/Popover';
 import Button from '@mui/material/Button';
 import Snackbar from '@mui/material/Snackbar';
 import CloseIcon from '@mui/icons-material/Close';
@@ -65,53 +62,60 @@ const FishChallenges = () => {
                 <Snackbar
                     open={open}
                     autoHideDuration={100000}
-                    onClose={handleClose}
+                    onClose={handleCloseNote}
                     message="Who in recent centuries we have also called M'vouta-N'zighé (Wutan-Zigé) among Alur people"
-                    action={action} />. <br />Fishing becomes increasingly difficult :<br /><br /></Typography>
-        </CardContent><Box sx={{ width: '100%' }}>
+                    action={action} />. <br />Fishing becomes increasingly difficult :<br /><br /><Button onClick={handleClick}>NOTE ꔮ</Button>
+                <Snackbar
+                    open={open}
+                    autoHideDuration={100000}
+                    onClose={handleCloseNote}
+                    message="Who in recent centuries we have also called M'vouta-N'zighé (Wutan-Zigé) among Alur people"
+                    action={action} /></Typography>
+        </CardContent>
+            <Box sx={{ width: '100%' }}>
                 <Grid container rowSpacing={1} columnSpacing={{ xs: 1, sm: 2, md: 3 }}>
-                    <Grid item xs={3} className='chall'>
-                        <Item sx={{ height: '100%' }} ><CardContent>
+                    <Grid item xs={3}>
+                        <Item sx={{ height: '100%' }}><CardContent className='chall'>
                             <Typography component='div' className="fishChallenges" color="text.secondary" gutterBottom>PIRACY<br /></Typography>
                         </CardContent></Item>
                     </Grid>
-                    <Grid item xs={3}>
-                        <Item sx={{ height: '100%' }}><CardContent>
-                            <Typography component='div' className="fishChallenges" color="text.secondary" gutterBottom>DECLINE OF AQUATIC FAUNA DUE TO THE USE OF PROHIBITED FISHING REARS OR ILLEGAL FISHING METHODS<br /></Typography>
+                    <Grid item xs={3} >
+                        <Item sx={{ height: '100%' }}><CardContent className='chall'>
+                            <Typography component='div' className="fishChallenges" color="text.secondary" gutterBottom>DECLINE OF AQUATIC FAUNA AND DIVERITY DUE TO THE USE OF PROHIBITED FISHING REARS OR ILLEGAL FISHING METHODS<br /></Typography>
                         </CardContent></Item>
                     </Grid>
                     <Grid item xs={3}>
-                        <Item sx={{ height: '100%' }}><CardContent>
+                        <Item sx={{ height: '100%' }}><CardContent className='chall'>
                             <Typography component='div' className="fishChallenges" color="text.secondary" gutterBottom>WATERBORNE DISEASES AND OVER-REPRODUCTION OF THE WATER HYACINTH<br /></Typography>
                         </CardContent></Item>
                     </Grid>
                     <Grid item xs={3}>
-                        <Item sx={{ height: '100%' }}><CardContent>
+                        <Item sx={{ height: '100%' }}><CardContent className='chall'>
                             <Typography component='div' className="fishChallenges" color="text.secondary" gutterBottom>A STRICT NEW FISHERIES AND AQUACULTURE ACT PREVENTING SUBSISTENCE FISHERFOLK FROM COMPLYING WITH REQUIREMENTS<br /></Typography>
                         </CardContent></Item>
                     </Grid>
                     <Grid item xs={3}>
-                        <Item sx={{ height: '100%' }}><CardContent>
+                        <Item sx={{ height: '100%' }}><CardContent className='chall'>
                             <Typography component='div' className="fishChallenges" color="text.secondary" gutterBottom>HIGH REPAIR COSTS FOR BOATS AND CANOES DUE TO CRACKS RESULTING FROM STRONG WINDS<br /></Typography>
                         </CardContent></Item>
                     </Grid>
                     <Grid item xs={3}>
-                        <Item sx={{ height: '100%' }}><CardContent>
+                        <Item sx={{ height: '100%' }}><CardContent className='chall'>
                             <Typography component='div' className="fishChallenges" color="text.secondary" gutterBottom>INCREASED EQUIPMENT PRICES AND THEFT AMONGST FISHERFOLK THEMSELVES<br /></Typography>
                         </CardContent></Item>
                     </Grid>
                     <Grid item xs={3}>
-                        <Item sx={{ height: '100%' }}><CardContent>
+                        <Item sx={{ height: '100%' }}><CardContent className='chall'>
                             <Typography component='div' className="fishChallenges" color="text.secondary" gutterBottom>MILITARISATION AND MISUSE OF POWER BY THE FISHERIES PROTECTION UNIT AND FISH PATROL UNITS<br /></Typography>
                         </CardContent></Item>
                     </Grid>
                     <Grid item xs={3}>
-                        <Item sx={{ height: '100%' }}><CardContent>
+                        <Item sx={{ height: '100%' }}><CardContent className='chall'>
                             <Typography component='div' className="fishChallenges" color="text.secondary" gutterBottom>DISREGARD FOR CUSTOMARY NORM THAT FISHING TRIPS ARE NOT ALLOWED WHEN THE MOON IS OUT<br /></Typography>
                         </CardContent></Item>
                     </Grid>
                 </Grid>
-            </Box></>
+            </Box> </>
     )
 }
 
