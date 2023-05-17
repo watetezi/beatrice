@@ -1,6 +1,8 @@
 import './App.css';
 import * as React from "react"
 
+import Kilntrad from "./img/kiln-trad.png";
+import Kilnsust from "./img/kiln-sust.png";
 
 
 import CardContent from '@mui/material/CardContent';
@@ -65,21 +67,21 @@ const Kiln = () => {
                 <Snackbar
                     open={open}
                     autoHideDuration={100000}
-                    onClose={handleClose}
+                    onClose={handleCloseNote}
                     message=" the Kwer Kabacayi Women Group and the Cwara Nguta Women Group"
                     action={action}
                 />. When I am not fishing we are together at the landing site smoking, sun-drying and salting the fish or lastly, taking it to market<Button onClick={handleClick}>ꔮ</Button>
                 <Snackbar
                     open={open}
                     autoHideDuration={100000}
-                    onClose={handleClose}
+                    onClose={handleCloseNote}
                     message=""
                     action={action}
                 />. We are striving to make fishing a more sustainable process and finally have our own new boat<Button onClick={handleClick}>ꔮ</Button>
                 <Snackbar
                     open={open}
                     autoHideDuration={100000}
-                    onClose={handleClose}
+                    onClose={handleCloseNote}
                     message=""
                     action={action}
                 /></Typography>
@@ -87,28 +89,28 @@ const Kiln = () => {
                 <Grid container rowSpacing={1} columnSpacing={{ xs: 1, sm: 2, md: 3 }}>
                     <Grid item xs={6}>
                         <Item sx={{ height: '100%' }}>
-                            {/* <CardMedia
-                                component="img"
-                                alt="Rastrineobola argentea"
-                                height="100"
-                                image={Rastrineobola}
-                                sx={{ objectFit: "contain" }} /> */}
                             <CardContent>
-                                <Typography component='div' className="fish" color="text.secondary" gutterBottom>SOLAR DRYING MACHINE</Typography>
+                                <Typography component='div' className="fish" color="text.secondary" gutterBottom>TRADITIONAL FISH SMOKING KILN</Typography>
                             </CardContent>
+                            <CardMedia
+                                component="img"
+                                alt="Traditional fish smoking kiln"
+                                height="180"
+                                image={Kilntrad}
+                                sx={{ objectFit: "contain" }} />
                         </Item>
                     </Grid>
                     <Grid item xs={6}>
                         <Item sx={{ height: '100%' }}>
-                            {/* <CardMedia
-                                component="img"
-                                alt="Brycinus nurse"
-                                height="100"
-                                image={Brycinus}
-                                sx={{ objectFit: "contain" }} /> */}
                             <CardContent>
-                                <Typography component='div' className="fish" color="text.secondary" gutterBottom>KILN</Typography>
+                                <Typography component='div' className="fish" color="text.secondary" gutterBottom>KWER KABACAYI WOMEN GROUP' FISH SMOKING KILN</Typography>
                             </CardContent>
+                            <CardMedia
+                                component="img"
+                                alt="Kiln"
+                                height="180"
+                                image={Kilnsust}
+                                sx={{ objectFit: "contain" }} />
                         </Item>
                     </Grid>
                 </Grid>

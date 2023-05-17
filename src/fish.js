@@ -112,7 +112,7 @@ const Fish = () => {
                                 image={Alestes}
                                 sx={{ objectFit: "contain" }} />
                             <CardContent>
-                                <Typography component='div' className="fish" color="text.secondary" gutterBottom>ANGARA<br /><i>Alestes barenose</i></Typography>
+                                <Typography component='div' className="fish" color="text.secondary" gutterBottom>ANGARA<br /><i>Alestes baremoze</i></Typography>
                             </CardContent>
                         </Item>
                     </Grid>

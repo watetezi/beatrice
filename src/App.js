@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import * as React from "react"
 import Fullpage, { FullPageSections, FullpageSection, FullpageNavigation } from '@ap.cx/react-fullpage';
@@ -9,8 +8,6 @@ import IconButton from '@mui/material/IconButton';
 import Button from '@mui/material/Button';
 import Snackbar from '@mui/material/Snackbar';
 import CloseIcon from '@mui/icons-material/Close';
-import { styled } from '@mui/material/styles';
-import Paper from '@mui/material/Paper';
 
 import Basemap from './basemap';
 import FishChallenges from './fishChallenges';
@@ -21,17 +18,6 @@ import Kiln from './kiln';
 
 
 const App = () => {
-
-
-  const Item = styled(Paper)(({ theme }) => ({
-    backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : '#fff',
-    ...theme.typography.body2,
-    padding: theme.spacing(1),
-    textAlign: 'center',
-    color: theme.palette.text.secondary,
-  }));
-
-
 
   const [open, setOpen] = React.useState(false)
 
@@ -163,7 +149,7 @@ const App = () => {
           padding: '1em',
         }}>
           <CardContent sx={{ maxWidth: 800 }}>
-            <Typography component='div' className="sentence" sx={{ mt: 2 }}>For these reasons, I am forced to cultivate garden to complement my subsistence</Typography>
+            <Typography component='div' className="sentence" sx={{ mt: 2 }}>But we are forced to cultivate garden to complement our subsistence</Typography>
           </CardContent>
         </FullpageSection>
 

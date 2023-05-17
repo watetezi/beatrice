@@ -119,7 +119,7 @@ const Boat = () => {
                 <AccordionDetails>
 
                     <TableContainer component={Paper} sx={{ maxHeight: 150, overflow: 'auto' }}>
-                        <Table sx={{ minWidth: 650 }} aria-label="simple table">
+                        <Table sx={{ minWidth: 650, fontSize: 15 }} aria-label="simple table">
                             <TableBody>
                                 {rowsBoat.map((row) => (
                                     <TableRow
@@ -153,7 +153,7 @@ const Boat = () => {
                 <AccordionDetails>
 
                     <TableContainer component={Paper} sx={{ maxHeight: 150, overflow: 'auto' }}>
-                        <Table sx={{ minWidth: 650 }} aria-label="simple table">
+                        <Table sx={{ minWidth: 650, fontSize: 15 }} aria-label="simple table">
                             <TableBody>
                                 {rowsEquip.map((row) => (
                                     <TableRow
@@ -174,22 +174,22 @@ const Boat = () => {
                 </AccordionDetails>
             </Accordion>< br />
 
-            </CardContent>
+        </CardContent>
 
 
             <Box sx={{ width: '100%' }}>
                 <Grid container rowSpacing={1} columnSpacing={{ xs: 1, sm: 2, md: 3 }}>
                     <Grid item xs={6}>
                         <Item sx={{ height: '100%' }}>
+                            <CardContent>
+                                <Typography component='div' className="fish" color="text.secondary" gutterBottom sx={{ fontSize: "14px !important" }}>TRADITIONAL BOAT< br />AT DEI LANDING SITE</Typography>
+                            </CardContent>
                             <CardMedia
                                 component="img"
                                 alt="Net"
                                 height="160"
                                 image={Net}
                                 sx={{ objectFit: "contain" }} />
-                            <CardContent>
-                                <Typography component='div' className="fish" color="text.secondary" gutterBottom sx={{ fontSize: "14px !important" }}>TRADITIONAL BOAT< br />AT DEI LANDING SITE</Typography>
-                            </CardContent>
                         </Item>
                     </Grid>
                 </Grid>
