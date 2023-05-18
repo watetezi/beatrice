@@ -1,8 +1,7 @@
 import './App.css';
 import * as React from "react"
 
-import Kilnsust from "./img/kiln-sust.png";
-import Drying from "./img/drying.png";
+import Kilntrad from "./img/kiln-trad.png";
 
 
 import CardContent from '@mui/material/CardContent';
@@ -17,7 +16,7 @@ import Grid from '@mui/material/Grid';
 import Paper from '@mui/material/Paper';
 import Box from '@mui/material/Box';
 
-const Kiln = () => {
+const Deforestation = () => {
 
 
     const Item = styled(Paper)(({ theme }) => ({
@@ -63,53 +62,27 @@ const Kiln = () => {
 
     return (
         <><CardContent sx={{ maxWidth: 800 }}>
-            <Typography component='div' className="sentence" sx={{ mt: 2 }}>As women we are organised in groups<Button onClick={handleClick}>ꔮ</Button>
+            <Typography component='div' className="sentence" sx={{ mt: 2 }}>We know fishing practices must take place through careful management of forest resources; wood collection for fish smoking has cleared several acres of forest across fishing villages<Button onClick={handleClick}>ꔮ</Button>
                 <Snackbar
                     open={open}
                     autoHideDuration={100000}
                     onClose={handleCloseNote}
-                    message=" the Kwer Kabacayi Women Group and the Cwara Nguta Women Group"
-                    action={action}
-                />. When I am not fishing we are together at the landing site smoking, sun-drying and salting the fish or lastly, taking it to market<Button onClick={handleClick}>ꔮ</Button>
-                <Snackbar
-                    open={open}
-                    autoHideDuration={100000}
-                    onClose={handleCloseNote}
-                    message=""
-                    action={action}
-                />. We are striving to make fishing a more sustainable process and finally have our own new boat<Button onClick={handleClick}>ꔮ</Button>
-                <Snackbar
-                    open={open}
-                    autoHideDuration={100000}
-                    onClose={handleCloseNote}
-                    message=""
+                    message="The map proves the gross forest cover loss in the period 2000-2021 (source: Hansen/UMD/Google/USGS/NASA). Reasons include a combination of anthropogenic disturbances and natural or climatic cycles, but in the fishing villages, within 1 km distance from shoreline, it remains among the leading causes of deforestation. In the village of Dei, almost one in two people will state fish smoking is the reason for cutting down a tree. Traditional earthen kilns have enabled the Alur to preserve their catch for generations, being hugely important in ensuring our food security; the new kiln, when completed, will allow us to continue this practice without impacting forestry"
                     action={action}
                 /></Typography>
-        </CardContent><Box sx={{ width: '100%' }}>
+        </CardContent>
+            <Box sx={{ width: '100%' }}>
                 <Grid container rowSpacing={1} columnSpacing={{ xs: 1, sm: 2, md: 3 }}>
                     <Grid item xs={6}>
                         <Item sx={{ height: '100%' }}>
-                            <CardContent>
-                                <Typography component='div' className="fish" color="text.secondary" gutterBottom>KWER KABACAYI WOMEN GROUP' FISH SMOKING KILN</Typography>
+                        <CardContent>
+                                <Typography component='div' className="fish" color="text.secondary" gutterBottom>TRADITIONAL FISH SMOKING KILN</Typography>
                             </CardContent>
                             <CardMedia
                                 component="img"
-                                alt="Kiln"
+                                alt="Traditional fish smoking kiln"
                                 height="180"
-                                image={Kilnsust}
-                                sx={{ objectFit: "contain" }} />
-                        </Item>
-                    </Grid>
-                    <Grid item xs={6}>
-                        <Item sx={{ height: '100%' }}>
-                            <CardContent>
-                                <Typography component='div' className="fish" color="text.secondary" gutterBottom>CWARA NGUTA WOMEN GROUP' SOLAR FISH DRYING MACHINE</Typography>
-                            </CardContent>
-                            <CardMedia
-                                component="img"
-                                alt="Drying"
-                                height="180"
-                                image={Drying}
+                                image={Kilntrad}
                                 sx={{ objectFit: "contain" }} />
                         </Item>
                     </Grid>
@@ -119,4 +92,4 @@ const Kiln = () => {
 }
 
 
-export default Kiln;
+export default Deforestation;

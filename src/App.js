@@ -14,7 +14,8 @@ import FishChallenges from './fishChallenges';
 import Fish from './fish';
 import Boat from './boat';
 import Kiln from './kiln';
- 
+import Deforestation from './deforestation';
+
 
 
 const App = () => {
@@ -140,6 +141,14 @@ const App = () => {
           padding: '1em',
         }}>
           < Kiln />
+        </FullpageSection>
+
+        <FullpageSection className='deforestation' style={{
+          backgroundColor: 'rgba(252, 250, 247, 1)',
+          height: '100vh',
+          padding: '1em',
+        }}>
+          < Deforestation />
         </FullpageSection>
 
 

@@ -76,42 +76,42 @@ const FishChallenges = () => {
                 <Grid container rowSpacing={1} columnSpacing={{ xs: 1, sm: 2, md: 3 }}>
                     <Grid item xs={3}>
                         <Item sx={{ height: '100%' }}><CardContent className='chall'>
-                            <Typography component='div' className="fishChallenges" color="text.secondary" gutterBottom>PIRACY<br /></Typography>
+                            <Typography component='div' className="fishChallenges" color="text.secondary" gutterBottom>Water piracy<br /></Typography>
                         </CardContent></Item>
                     </Grid>
                     <Grid item xs={3} >
                         <Item sx={{ height: '100%' }}><CardContent className='chall'>
-                            <Typography component='div' className="fishChallenges" color="text.secondary" gutterBottom>DECLINE OF AQUATIC FAUNA AND DIVERITY DUE TO THE USE OF PROHIBITED FISHING REARS OR ILLEGAL FISHING METHODS<br /></Typography>
+                            <Typography component='div' className="fishChallenges" color="text.secondary" gutterBottom>Decline of aquatic fauna and diverity due to the use of prohibited fishing rears or illegal fishing methods<br /></Typography>
                         </CardContent></Item>
                     </Grid>
                     <Grid item xs={3}>
                         <Item sx={{ height: '100%' }}><CardContent className='chall'>
-                            <Typography component='div' className="fishChallenges" color="text.secondary" gutterBottom>WATERBORNE DISEASES AND OVER-REPRODUCTION OF THE WATER HYACINTH<br /></Typography>
+                            <Typography component='div' className="fishChallenges" color="text.secondary" gutterBottom>Waterborne diseases and over-reproduction of the water hyacinth<br /></Typography>
                         </CardContent></Item>
                     </Grid>
                     <Grid item xs={3}>
                         <Item sx={{ height: '100%' }}><CardContent className='chall'>
-                            <Typography component='div' className="fishChallenges" color="text.secondary" gutterBottom>A STRICT NEW FISHERIES AND AQUACULTURE ACT PREVENTING SUBSISTENCE FISHERFOLK FROM COMPLYING WITH REQUIREMENTS<br /></Typography>
+                            <Typography component='div' className="fishChallenges" color="text.secondary" gutterBottom>A strict new fisheries and aquaculture act preventing subsistence fisherfolk from complying with requirements<br /></Typography>
                         </CardContent></Item>
                     </Grid>
                     <Grid item xs={3}>
                         <Item sx={{ height: '100%' }}><CardContent className='chall'>
-                            <Typography component='div' className="fishChallenges" color="text.secondary" gutterBottom>HIGH REPAIR COSTS FOR BOATS AND CANOES DUE TO CRACKS RESULTING FROM STRONG WINDS<br /></Typography>
+                            <Typography component='div' className="fishChallenges" color="text.secondary" gutterBottom>High repair costs for boats and canoes due to cracks resulting from strong winds<br /></Typography>
                         </CardContent></Item>
                     </Grid>
                     <Grid item xs={3}>
                         <Item sx={{ height: '100%' }}><CardContent className='chall'>
-                            <Typography component='div' className="fishChallenges" color="text.secondary" gutterBottom>INCREASED EQUIPMENT PRICES AND THEFT AMONGST FISHERFOLK THEMSELVES<br /></Typography>
+                            <Typography component='div' className="fishChallenges" color="text.secondary" gutterBottom>Increased equipment prices and theft amongst fisherfolk themselves<br /></Typography>
                         </CardContent></Item>
                     </Grid>
                     <Grid item xs={3}>
                         <Item sx={{ height: '100%' }}><CardContent className='chall'>
-                            <Typography component='div' className="fishChallenges" color="text.secondary" gutterBottom>MILITARISATION AND MISUSE OF POWER BY THE FISHERIES PROTECTION UNIT AND FISH PATROL UNITS<br /></Typography>
+                            <Typography component='div' className="fishChallenges" color="text.secondary" gutterBottom>Militarisation and misuse of power by the fisheries protection unit and fish patrol units<br /></Typography>
                         </CardContent></Item>
                     </Grid>
                     <Grid item xs={3}>
                         <Item sx={{ height: '100%' }}><CardContent className='chall'>
-                            <Typography component='div' className="fishChallenges" color="text.secondary" gutterBottom>DISREGARD FOR CUSTOMARY NORM THAT FISHING TRIPS ARE NOT ALLOWED WHEN THE MOON IS OUT<br /></Typography>
+                            <Typography component='div' className="fishChallenges" color="text.secondary" gutterBottom>Disregard for customary norm that fishing trips are not allowed when the moon is out<br /></Typography>
                         </CardContent></Item>
                     </Grid>
                 </Grid>

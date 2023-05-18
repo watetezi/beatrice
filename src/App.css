@@ -119,9 +119,9 @@ a:visited {
   font-family: 'IBM Plex Mono', monospace !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-weight: 500 !important;
-  font-size: 0.8em !important;
-  letter-spacing: 3px !important;
+  font-weight: 400 !important;
+  font-size: 0.9em !important;
+  letter-spacing: 2px !important;
   line-height: 1.4em !important;
   -webkit-text-fill-color: rgb(105, 105, 105);
   -webkit-text-stroke-width: 0px;
@@ -129,6 +129,7 @@ a:visited {
   text-shadow:
     10px 10px rgba(146, 145, 145, 0.1) !important;
   height: 100%;
+  text-transform: uppercase;
 }
 
 .MuiTableCell-root{
@@ -204,6 +205,15 @@ a:visited {
   background-position: bottom right;
 }
 
+.deforestation {
+  background: url("../public/img/deforestation_lakeA.png") no-repeat;
+  background-repeat: no-repeat;
+  background-size: 50vw;
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: bottom right;
+}
+
 #portrait {
   background: url("../public/img/beatrice.png") no-repeat;
   background-repeat: no-repeat;
@@ -255,7 +265,7 @@ a:visited {
 @media only screen and (max-width: 600px) {
   .sentence {
     font-weight: 400 !important;
-    font-size: 1.5em !important;
+    font-size: 1.3em !important;
     letter-spacing: 4px !important;
     line-height: 1.1em !important;
   }
@@ -275,6 +285,10 @@ a:visited {
 
   .MuiPaper-root.MuiPaper-elevation.MuiPaper-elevation6.MuiSnackbarContent-root {
     height: 50px;
+  }
+
+  .MuiButtonBase-root.MuiButton-root.MuiButton-text {
+    padding: 2px;
   }
 
   .fish {
