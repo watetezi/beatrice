@@ -1,22 +1,24 @@
 {
   "files": {
-    "main.css": "/beatrice/static/css/main.d6dc9742.css",
-    "main.js": "/beatrice/static/js/main.d742be63.js",
+    "main.css": "/beatrice/static/css/main.3bf71a30.css",
+    "main.js": "/beatrice/static/js/main.4ed6e53b.js",
     "static/js/787.005bbac6.chunk.js": "/beatrice/static/js/787.005bbac6.chunk.js",
+    "static/media/deforestation_lakeA.png": "/beatrice/static/media/deforestation_lakeA.c33b9e3b454f7f4cd348.png",
     "static/media/beatrice.png": "/beatrice/static/media/beatrice.fabc624a4bb82ba6d4ab.png",
+    "static/media/kiln-trad.png": "/beatrice/static/media/kiln-trad.0ec58ac1851efbebced4.png",
+    "static/media/drying.png": "/beatrice/static/media/drying.1dfd3a3f7364008429e9.png",
     "static/media/Almac_u0.png": "/beatrice/static/media/Almac_u0.20a2f87e157c32e5f84b.png",
-    "static/media/kiln-trad.png": "/beatrice/static/media/kiln-trad.24ffc212423eef5bbaeb.png",
     "static/media/Hyvit_u0.png": "/beatrice/static/media/Hyvit_u0.96535c6b0f7ad5bd824b.png",
     "static/media/Aljac_u0.png": "/beatrice/static/media/Aljac_u0.2c005221114f0c115cb6.png",
     "static/media/Raarg_u0.png": "/beatrice/static/media/Raarg_u0.41c2a19f03573426f06d.png",
     "static/media/kiln-sust.png": "/beatrice/static/media/kiln-sust.a9f31b8fcc837882840a.png",
     "index.html": "/beatrice/index.html",
-    "main.d6dc9742.css.map": "/beatrice/static/css/main.d6dc9742.css.map",
-    "main.d742be63.js.map": "/beatrice/static/js/main.d742be63.js.map",
+    "main.3bf71a30.css.map": "/beatrice/static/css/main.3bf71a30.css.map",
+    "main.4ed6e53b.js.map": "/beatrice/static/js/main.4ed6e53b.js.map",
     "787.005bbac6.chunk.js.map": "/beatrice/static/js/787.005bbac6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d6dc9742.css",
-    "static/js/main.d742be63.js"
+    "static/css/main.3bf71a30.css",
+    "static/js/main.4ed6e53b.js"
   ]
 }
