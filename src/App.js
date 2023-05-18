@@ -87,14 +87,7 @@ const App = () => {
           padding: '1em',
         }}>
           <CardContent sx={{ maxWidth: 800 }}>
-            <Typography component='div' className="sentence" sx={{ mt: 2 }}>I live in the village of Dei, at the border between Uganda and DRC.<br />Our land is in a unique place,<Button onClick={handleClick}>ꔮ</Button>
-              <Snackbar
-                open={open}
-                autoHideDuration={100000}
-                onClose={handleClose}
-                message=""
-                action={action}
-              /> a plain enclosed between the mountain and the lake
+            <Typography component='div' className="sentence" sx={{ mt: 2 }}>I live in the village of Dei, at the border between Uganda and DRC.<br />Our land is in a unique place, a plain enclosed between the mountain and the lake
             </Typography>
           </CardContent>
         </FullpageSection>

@@ -68,21 +68,14 @@ const Kiln = () => {
                     open={open}
                     autoHideDuration={100000}
                     onClose={handleCloseNote}
-                    message=" the Kwer Kabacayi Women Group and the Cwara Nguta Women Group"
+                    message="Two of the organised women's groups at Dei's landing sites are the Kwer Kabacayi Women Group and the Cware Nguta Women Group. I am one of the 28 members of the Kwer Kabacayi group; before the fishing halt coincided with the preventive measures to the COVID-19 pandemic and the enforcement of government regulation in the fishing industry, we were 50."
                     action={action}
-                />. When I am not fishing we are together at the landing site smoking, sun-drying and salting the fish or lastly, taking it to market<Button onClick={handleClick}>ꔮ</Button>
+                />. When I am not fishing we are together at the landing site smoking, sun-drying and salting the fish or lastly, taking it to market. We are striving to make fishing a more sustainable process and finally have our own new boat<Button onClick={handleClick}>ꔮ</Button>
                 <Snackbar
                     open={open}
                     autoHideDuration={100000}
                     onClose={handleCloseNote}
-                    message=""
-                    action={action}
-                />. We are striving to make fishing a more sustainable process and finally have our own new boat<Button onClick={handleClick}>ꔮ</Button>
-                <Snackbar
-                    open={open}
-                    autoHideDuration={100000}
-                    onClose={handleCloseNote}
-                    message=""
+                    message="As a women's group, we are adopting practices and acquiring equipment to make fishing more sustainable. Our group installed a fishing smoke kiln (thanks to the support of the NARO project); we need 5,000 bricks, 27 bags of cement, 10 reinforcement bars, 8 stirrups, 4 kg of binding wires; 48 pieces of iron sheets; 65 pieces of timber, 6 trips of sand and 2 doors to complete the structure. Actually, this machine is optimal for bigger fish than the Mukene. Larger fish require a bigger boat and new fishing nets. It would take UGX 30,000,000 (USD 8,000) to achieve this.The Cwara Nguta Women's group instead built a solar fish drying machine (with the support of NUTRIFISH)."
                     action={action}
                 /></Typography>
         </CardContent><Box sx={{ width: '100%' }}>

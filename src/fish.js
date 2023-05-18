@@ -72,7 +72,7 @@ const Fish = () => {
                     open={open}
                     autoHideDuration={100000}
                     onClose={handleCloseNote}
-                    message="TO FIX> TO FIX> TO FIX> The typical fisher dealers at Dei are those who hire a boat from a ‘Boss’ and then hire a fisherman to go out and harvest fish for him/her in Lake Albert. He/she receives the fish and then sells it to others. The ‘others’ includes those that buy wholesale fresh fish and transport it to destinations outside Dei; those who buy fresh fish and sell it to consumers at Dei landing site; Those that buy fish, smoke it and then go and sell it to other markets outside of Dei Landing site"
+                    message="The landing site is mostly run around fish traders. They own or rent a boat from a 'chief', and hire a group of 3-4 fisherfolk to go fishing for him/her. He/she then sells the catch directly to consumers at the landing site, sells it wholesale to those who take it out of the village of Dei, or has it processed, sun-dried or smoked, and then transports it to the local sub-county markets. Those who have their own canoe or boat try to organise their own fishing trip for their own consumption by selling the surplus directly to consumers at the landing site, or join the other women in processing the fish to preserve it or sell it at markets."
                     action={action} />
             </Typography>
         </CardContent><Box sx={{ width: '100%' }}>

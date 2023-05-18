@@ -100,6 +100,10 @@ a:visited {
     10px 10px rgba(146, 145, 145, 0.1) !important;
 }
 
+.MuiSnackbarContent-message{
+  line-height: 1.5em !important;
+}
+
 .fish {
   font-family: 'IBM Plex Mono', monospace !important;
   -webkit-font-smoothing: antialiased;
