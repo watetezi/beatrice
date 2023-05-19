@@ -203,19 +203,28 @@ a:visited {
 .portrait {
   background: url("../public/img/beatrice.png") no-repeat;
   background-repeat: no-repeat;
-  background-size: 50vw;
+  background-size: 40vw;
   height: 100vh;
   background-attachment: fixed;
-  background-position: bottom right;
+  background-position: bottom center;
 }
 
 .deforestation {
   background: url("../public/img/deforestation_lakeA.png") no-repeat;
   background-repeat: no-repeat;
-  background-size: 50vw;
+  background-size: 40vw;
   height: 100vh;
   background-attachment: fixed;
   background-position: bottom right;
+}
+
+.agro {
+  background: url("../public/img/agro.png") no-repeat;
+  background-repeat: no-repeat;
+  background-size: 70vw;
+  height: 100vh; 
+  background-attachment: fixed;
+  background-position: center right;
 }
 
 #portrait {
@@ -281,6 +290,21 @@ a:visited {
   .portrait {
     background-size: 100vw !important;
     height: 100vh;
+  }
+
+  .deforestation {
+    background-size: 100vw !important;
+    height: 100vh;
+  }
+
+  .agro {
+    background-size: 100vw !important;
+    height: 100vh;
+    background-position: bottom right;
+  }
+
+  .tradkiln {
+    display: none;
   }
 
   .basemap {
