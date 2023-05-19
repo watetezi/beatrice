@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/beatrice/static/css/main.c97c1d42.css",
-    "main.js": "/beatrice/static/js/main.09e962f2.js",
+    "main.css": "/beatrice/static/css/main.06f29b3a.css",
+    "main.js": "/beatrice/static/js/main.adf66434.js",
     "static/js/787.005bbac6.chunk.js": "/beatrice/static/js/787.005bbac6.chunk.js",
     "static/media/agro.png": "/beatrice/static/media/agro.c83dd38b290596688f0b.png",
     "static/media/deforestation_lakeA.png": "/beatrice/static/media/deforestation_lakeA.c33b9e3b454f7f4cd348.png",
@@ -14,12 +14,12 @@
     "static/media/Raarg_u0.png": "/beatrice/static/media/Raarg_u0.41c2a19f03573426f06d.png",
     "static/media/kiln-sust.png": "/beatrice/static/media/kiln-sust.a9f31b8fcc837882840a.png",
     "index.html": "/beatrice/index.html",
-    "main.c97c1d42.css.map": "/beatrice/static/css/main.c97c1d42.css.map",
-    "main.09e962f2.js.map": "/beatrice/static/js/main.09e962f2.js.map",
+    "main.06f29b3a.css.map": "/beatrice/static/css/main.06f29b3a.css.map",
+    "main.adf66434.js.map": "/beatrice/static/js/main.adf66434.js.map",
     "787.005bbac6.chunk.js.map": "/beatrice/static/js/787.005bbac6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c97c1d42.css",
-    "static/js/main.09e962f2.js"
+    "static/css/main.06f29b3a.css",
+    "static/js/main.adf66434.js"
   ]
 }
