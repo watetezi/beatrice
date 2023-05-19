@@ -314,7 +314,7 @@ a:visited {
   }
 
   .MuiPaper-root.MuiPaper-elevation.MuiPaper-elevation6.MuiSnackbarContent-root {
-    height: 50px;
+    height: 80px;
   }
 
   .MuiButtonBase-root.MuiButton-root.MuiButton-text {
@@ -334,6 +334,10 @@ a:visited {
 
   .MuiCardContent-root {
     padding: 2px !important;
+  }
+
+  .MuiSnackbarContent-message {
+    font-size: 1.5em !important;
   }
 
 }
