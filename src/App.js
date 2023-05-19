@@ -150,12 +150,12 @@ const App = () => {
           padding: '1em',
         }}>
           <CardContent sx={{ maxWidth: 800 }}>
-            <Typography component='div' className="sentence" sx={{ mt: 2 }}>We can no longer rely entirely on fishing. We cultivate garden to complement our subsistence<Button onClick={handleClick}>ꔮ</Button>
+            <Typography component='div' className="sentence" sx={{ mt: 2 }}>So, we can no longer rely entirely on fishing. We cultivate garden to complement our subsistence<Button onClick={handleClick}>MAP</Button>
               <Snackbar
                 open={open}
                 autoHideDuration={100000}
                 onClose={handleClose}
-                message="The map shows the areas where our gardens are clustered. Unfortunately, the ancient agro-ecological and agroforestry model has practically disappeared, and with difficulty, attempts are being made to reconstruct it. Biennial crops and perennial crops are largely the prevailing land use, but we are aware that this model of agricultural development has contributed to altering the climate cycle. We have paid a high price for this choice."
+                message="The map shows the areas where our gardens are clustered. Unfortunately, the ancient agro-ecological and agroforestry model has disappeared, and with difficulty, attempts are being made to reconstruct it. Biennial crops and perennial crops are largely the prevailing land use, but we are aware that this model of agricultural development has contributed to altering the climate cycle. We have paid a high price for this choice."
                 action={action}
               /></Typography>
           </CardContent>

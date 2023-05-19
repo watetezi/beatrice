@@ -62,7 +62,7 @@ const Deforestation = () => {
 
     return (
         <><CardContent sx={{ maxWidth: 800 }}>
-            <Typography component='div' className="sentence" sx={{ mt: 2 }}>We know fishing practices must take place through careful management of forest resources; wood collection for fish smoking has cleared several acres of forest across fishing villages<Button onClick={handleClick}>ꔮ</Button>
+            <Typography component='div' className="sentence" sx={{ mt: 2 }}>We know fishing practices must take place through careful management of forest resources; wood collection for fish smoking has cleared several acres of forest across fishing villages<Button onClick={handleClick}>MAP</Button>
                 <Snackbar
                     open={open}
                     autoHideDuration={100000}

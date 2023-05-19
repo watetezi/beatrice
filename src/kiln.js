@@ -63,14 +63,14 @@ const Kiln = () => {
 
     return (
         <><CardContent sx={{ maxWidth: 800 }}>
-            <Typography component='div' className="sentence" sx={{ mt: 2 }}>As women we are organised in groups<Button onClick={handleClick}>ꔮ</Button>
+            <Typography component='div' className="sentence" sx={{ mt: 2 }}>As women we are organised in groups.<Button onClick={handleClick}>ꔮ</Button>
                 <Snackbar
                     open={open}
                     autoHideDuration={100000}
                     onClose={handleCloseNote}
                     message="Two of the organised women's groups at Dei's landing sites are the Kwer Kabacayi Women Group and the Cware Nguta Women Group. I am one of the 28 members of the Kwer Kabacayi group; before the fishing halt coincided with the preventive measures to the COVID-19 pandemic and the enforcement of government regulation in the fishing industry, we were 50."
                     action={action}
-                />. When I am not fishing we are together at the landing site smoking, sun-drying and salting the fish or lastly, taking it to market. We are striving to make fishing a more sustainable process and finally have our own new boat<Button onClick={handleClick}>ꔮ</Button>
+                /> When I am not fishing we are together at the landing site smoking, sun-drying and salting the fish or lastly, taking it to market. We are striving to make fishing a more sustainable process and finally have our own new boat<Button onClick={handleClick}>ꔮ</Button>
                 <Snackbar
                     open={open}
                     autoHideDuration={100000}

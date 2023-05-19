@@ -58,13 +58,13 @@ const FishChallenges = () => {
     return (
 
         <><CardContent sx={{ maxWidth: 800 }}>
-            <Typography component='div' className="sentence" sx={{ mt: 2 }}>You can spot me coming back from a fishing trip onboard any of the 80 between canoes and boats at Dei's landing sites. In 2020 there were 690<Button onClick={handleClick}>ꔮ</Button>
+            <Typography component='div' className="sentence" sx={{ mt: 2 }}>You can spot me coming back from a fishing trip onboard any of the 80 between canoes and boats at Dei's landing sites. In 2020 there were 690.<Button onClick={handleClick}>ꔮ</Button>
                 <Snackbar
                     open={open}
                     autoHideDuration={100000}
                     onClose={handleCloseNote}
                     message="Recent restrictions due to COVID-19, coupled with price fluctuations at the market, the unaffordability of the equipment required by the regulations introduced in 2021 and police persecution have reduced us to starvation due to the inability to put boats in the water at Dei landing sites. A little further north, at Kavango landing site, you won't find a single boat; just a couple of people hooping Tilapia with nets."
-                    action={action} />. <br />Fishing becomes increasingly difficult :<br /><br /><Button onClick={handleClick}>NOTE ꔮ</Button>
+                    action={action} /><br />Fishing becomes increasingly difficult :<br /><br /><Button onClick={handleClick}>NOTE ꔮ</Button>
                 <Snackbar
                     open={open}
                     autoHideDuration={100000}
