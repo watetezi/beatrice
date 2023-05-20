@@ -179,7 +179,7 @@ const Boat = () => {
 
             <Box sx={{ width: '100%' }}>
                 <Grid container rowSpacing={1} columnSpacing={{ xs: 1, sm: 2, md: 3 }}>
-                    <Grid item xs={4}>
+                    <Grid item xs={6}>
                         <Item sx={{ height: '100%' }}>
                             <CardContent>
                                 <Typography component='div' className="fish" color="text.secondary" gutterBottom sx={{ fontSize: "14px !important" }}>TRADITIONAL BOAT< br />AT DEI LANDING SITE</Typography>

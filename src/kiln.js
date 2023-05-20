@@ -80,7 +80,7 @@ const Kiln = () => {
                 /></Typography>
         </CardContent><Box sx={{ width: '100%' }}>
                 <Grid container rowSpacing={1} columnSpacing={{ xs: 1, sm: 2, md: 3 }}>
-                    <Grid item xs={3}>
+                    <Grid item xs={6}>
                         <Item sx={{ height: '100%' }}>
                             <CardContent>
                                 <Typography component='div' className="fish" color="text.secondary" gutterBottom>KWER KABACAYI WOMEN GROUP' FISH SMOKING KILN</Typography>
@@ -93,7 +93,7 @@ const Kiln = () => {
                                 sx={{ objectFit: "contain" }} />
                         </Item>
                     </Grid>
-                    <Grid item xs={3}>
+                    <Grid item xs={6}>
                         <Item sx={{ height: '100%' }}>
                             <CardContent>
                                 <Typography component='div' className="fish" color="text.secondary" gutterBottom>CWARA NGUTA WOMEN GROUP' SOLAR FISH DRYING MACHINE</Typography>

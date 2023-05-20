@@ -16,6 +16,7 @@ import Boat from './boat';
 import Kiln from './kiln';
 import Deforestation from './deforestation';
 import Crop from './crop';
+import Knowledge from './knowledge';
 
 
 
@@ -170,7 +171,13 @@ const App = () => {
           < Crop />
         </FullpageSection>
 
-
+        <FullpageSection style={{
+          backgroundColor: 'rgba(252, 250, 247, 1)',
+          height: '100vh',
+          padding: '1em',
+        }}>
+          < Knowledge />
+        </FullpageSection>
       </FullPageSections>
 
     </Fullpage >
