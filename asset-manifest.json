@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/beatrice/static/css/main.553511c6.css",
-    "main.js": "/beatrice/static/js/main.cd551f59.js",
+    "main.js": "/beatrice/static/js/main.97cd56d2.js",
     "static/js/787.005bbac6.chunk.js": "/beatrice/static/js/787.005bbac6.chunk.js",
     "static/media/agro.png": "/beatrice/static/media/agro.c83dd38b290596688f0b.png",
     "static/media/ogal.png": "/beatrice/static/media/ogal.764ffefd8a2f4dc33e5b.png",
@@ -12,7 +12,9 @@
     "static/media/sesame.png": "/beatrice/static/media/sesame.f844fec85041bf984b4a.png",
     "static/media/cassava.png": "/beatrice/static/media/cassava.6c907ef4fff8335f35b2.png",
     "static/media/pumpkin.png": "/beatrice/static/media/pumpkin.f2fd6b2fd11350f2b1d3.png",
+    "static/media/Yao.png": "/beatrice/static/media/Yao.58442337f14274d2d1c5.png",
     "static/media/soybean.png": "/beatrice/static/media/soybean.761764d7e8ebd837d6b4.png",
+    "static/media/Kalarufu.png": "/beatrice/static/media/Kalarufu.0cae4dbd1de23811df42.png",
     "static/media/maize.png": "/beatrice/static/media/maize.e526e9c7c4fad8aae24f.png",
     "static/media/kiln-trad.png": "/beatrice/static/media/kiln-trad.0ec58ac1851efbebced4.png",
     "static/media/cwaa.png": "/beatrice/static/media/cwaa.afd3fa759b5fcdf7bbc5.png",
@@ -20,17 +22,18 @@
     "static/media/sweet.png": "/beatrice/static/media/sweet.8e625ededd90326dee00.png",
     "static/media/drying.png": "/beatrice/static/media/drying.1dfd3a3f7364008429e9.png",
     "static/media/Almac_u0.png": "/beatrice/static/media/Almac_u0.20a2f87e157c32e5f84b.png",
+    "static/media/Acoga.png": "/beatrice/static/media/Acoga.45f7b1c1a6f788406aaa.png",
     "static/media/Hyvit_u0.png": "/beatrice/static/media/Hyvit_u0.96535c6b0f7ad5bd824b.png",
     "static/media/Aljac_u0.png": "/beatrice/static/media/Aljac_u0.2c005221114f0c115cb6.png",
     "static/media/Raarg_u0.png": "/beatrice/static/media/Raarg_u0.41c2a19f03573426f06d.png",
     "static/media/kiln-sust.png": "/beatrice/static/media/kiln-sust.a9f31b8fcc837882840a.png",
     "index.html": "/beatrice/index.html",
     "main.553511c6.css.map": "/beatrice/static/css/main.553511c6.css.map",
-    "main.cd551f59.js.map": "/beatrice/static/js/main.cd551f59.js.map",
+    "main.97cd56d2.js.map": "/beatrice/static/js/main.97cd56d2.js.map",
     "787.005bbac6.chunk.js.map": "/beatrice/static/js/787.005bbac6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.553511c6.css",
-    "static/js/main.cd551f59.js"
+    "static/js/main.97cd56d2.js"
   ]
 }
