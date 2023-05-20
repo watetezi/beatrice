@@ -17,6 +17,7 @@ import Kiln from './kiln';
 import Deforestation from './deforestation';
 import Crop from './crop';
 import Knowledge from './knowledge';
+import Nonancestral from './nonancestral';
 
 
 
@@ -178,6 +179,15 @@ const App = () => {
         }}>
           < Knowledge />
         </FullpageSection>
+
+        <FullpageSection style={{
+          backgroundColor: 'rgba(252, 250, 247, 1)',
+          height: '100vh',
+          padding: '1em',
+        }}>
+          < Nonancestral />
+        </FullpageSection>
+
       </FullPageSections>
 
     </Fullpage >
