@@ -1,20 +1,24 @@
 {
   "files": {
     "main.css": "/beatrice/static/css/main.553511c6.css",
-    "main.js": "/beatrice/static/js/main.e9e64fd5.js",
+    "main.js": "/beatrice/static/js/main.a32223b3.js",
     "static/js/787.005bbac6.chunk.js": "/beatrice/static/js/787.005bbac6.chunk.js",
     "static/media/agro.png": "/beatrice/static/media/agro.c83dd38b290596688f0b.png",
     "static/media/deforestation_lakeA.png": "/beatrice/static/media/deforestation_lakeA.c33b9e3b454f7f4cd348.png",
     "static/media/beatrice.png": "/beatrice/static/media/beatrice.fabc624a4bb82ba6d4ab.png",
+    "static/media/Markhamia.png": "/beatrice/static/media/Markhamia.90dd11a9e6be98f98777.png",
     "static/media/neem.png": "/beatrice/static/media/neem.2a49556bea20a1cc3494.png",
     "static/media/ogal.png": "/beatrice/static/media/ogal.fbb75ca628f12d019922.png",
     "static/media/groundnut.png": "/beatrice/static/media/groundnut.bd815f4b5859a98e0eeb.png",
     "static/media/cassia.png": "/beatrice/static/media/cassia.c7a10f2a8a919fd6fbbd.png",
     "static/media/sesame.png": "/beatrice/static/media/sesame.f844fec85041bf984b4a.png",
     "static/media/cassava.png": "/beatrice/static/media/cassava.6c907ef4fff8335f35b2.png",
+    "static/media/Mbeni.png": "/beatrice/static/media/Mbeni.7332385303ab044a2973.png",
     "static/media/pumpkin.png": "/beatrice/static/media/pumpkin.f2fd6b2fd11350f2b1d3.png",
+    "static/media/Albizia.png": "/beatrice/static/media/Albizia.688e7de837e55f78528f.png",
     "static/media/Yao.png": "/beatrice/static/media/Yao.58442337f14274d2d1c5.png",
     "static/media/soybean.png": "/beatrice/static/media/soybean.761764d7e8ebd837d6b4.png",
+    "static/media/Pinus.png": "/beatrice/static/media/Pinus.1bddc513004142349ee1.png",
     "static/media/olemo.png": "/beatrice/static/media/olemo.56769f6cd5c726587df6.png",
     "static/media/maize.png": "/beatrice/static/media/maize.e526e9c7c4fad8aae24f.png",
     "static/media/Kalarufu.png": "/beatrice/static/media/Kalarufu.d2b80e490a4e8e84e7df.png",
@@ -24,6 +28,8 @@
     "static/media/bean.png": "/beatrice/static/media/bean.3b617193f7ec38163b74.png",
     "static/media/sweet.png": "/beatrice/static/media/sweet.8e625ededd90326dee00.png",
     "static/media/drying.png": "/beatrice/static/media/drying.1dfd3a3f7364008429e9.png",
+    "static/media/Maesopsis.png": "/beatrice/static/media/Maesopsis.067bb326597dcb77563c.png",
+    "static/media/Mangifera.png": "/beatrice/static/media/Mangifera.d1692980da75987cb6a5.png",
     "static/media/Almac_u0.png": "/beatrice/static/media/Almac_u0.20a2f87e157c32e5f84b.png",
     "static/media/Acoga.png": "/beatrice/static/media/Acoga.45f7b1c1a6f788406aaa.png",
     "static/media/Hyvit_u0.png": "/beatrice/static/media/Hyvit_u0.96535c6b0f7ad5bd824b.png",
@@ -32,11 +38,11 @@
     "static/media/kiln-sust.png": "/beatrice/static/media/kiln-sust.a9f31b8fcc837882840a.png",
     "index.html": "/beatrice/index.html",
     "main.553511c6.css.map": "/beatrice/static/css/main.553511c6.css.map",
-    "main.e9e64fd5.js.map": "/beatrice/static/js/main.e9e64fd5.js.map",
+    "main.a32223b3.js.map": "/beatrice/static/js/main.a32223b3.js.map",
     "787.005bbac6.chunk.js.map": "/beatrice/static/js/787.005bbac6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.553511c6.css",
-    "static/js/main.e9e64fd5.js"
+    "static/js/main.a32223b3.js"
   ]
 }
