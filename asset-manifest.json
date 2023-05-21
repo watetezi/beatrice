@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/beatrice/static/css/main.553511c6.css",
-    "main.js": "/beatrice/static/js/main.a32223b3.js",
+    "main.js": "/beatrice/static/js/main.ed80546a.js",
     "static/js/787.005bbac6.chunk.js": "/beatrice/static/js/787.005bbac6.chunk.js",
     "static/media/agro.png": "/beatrice/static/media/agro.c83dd38b290596688f0b.png",
     "static/media/deforestation_lakeA.png": "/beatrice/static/media/deforestation_lakeA.c33b9e3b454f7f4cd348.png",
@@ -38,11 +38,11 @@
     "static/media/kiln-sust.png": "/beatrice/static/media/kiln-sust.a9f31b8fcc837882840a.png",
     "index.html": "/beatrice/index.html",
     "main.553511c6.css.map": "/beatrice/static/css/main.553511c6.css.map",
-    "main.a32223b3.js.map": "/beatrice/static/js/main.a32223b3.js.map",
+    "main.ed80546a.js.map": "/beatrice/static/js/main.ed80546a.js.map",
     "787.005bbac6.chunk.js.map": "/beatrice/static/js/787.005bbac6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.553511c6.css",
-    "static/js/main.a32223b3.js"
+    "static/js/main.ed80546a.js"
   ]
 }
