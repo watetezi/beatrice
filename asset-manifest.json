@@ -1,22 +1,25 @@
 {
   "files": {
     "main.css": "/beatrice/static/css/main.553511c6.css",
-    "main.js": "/beatrice/static/js/main.97cd56d2.js",
+    "main.js": "/beatrice/static/js/main.e9e64fd5.js",
     "static/js/787.005bbac6.chunk.js": "/beatrice/static/js/787.005bbac6.chunk.js",
     "static/media/agro.png": "/beatrice/static/media/agro.c83dd38b290596688f0b.png",
-    "static/media/ogal.png": "/beatrice/static/media/ogal.764ffefd8a2f4dc33e5b.png",
     "static/media/deforestation_lakeA.png": "/beatrice/static/media/deforestation_lakeA.c33b9e3b454f7f4cd348.png",
     "static/media/beatrice.png": "/beatrice/static/media/beatrice.fabc624a4bb82ba6d4ab.png",
     "static/media/neem.png": "/beatrice/static/media/neem.2a49556bea20a1cc3494.png",
+    "static/media/ogal.png": "/beatrice/static/media/ogal.fbb75ca628f12d019922.png",
     "static/media/groundnut.png": "/beatrice/static/media/groundnut.bd815f4b5859a98e0eeb.png",
+    "static/media/cassia.png": "/beatrice/static/media/cassia.c7a10f2a8a919fd6fbbd.png",
     "static/media/sesame.png": "/beatrice/static/media/sesame.f844fec85041bf984b4a.png",
     "static/media/cassava.png": "/beatrice/static/media/cassava.6c907ef4fff8335f35b2.png",
     "static/media/pumpkin.png": "/beatrice/static/media/pumpkin.f2fd6b2fd11350f2b1d3.png",
     "static/media/Yao.png": "/beatrice/static/media/Yao.58442337f14274d2d1c5.png",
     "static/media/soybean.png": "/beatrice/static/media/soybean.761764d7e8ebd837d6b4.png",
-    "static/media/Kalarufu.png": "/beatrice/static/media/Kalarufu.0cae4dbd1de23811df42.png",
+    "static/media/olemo.png": "/beatrice/static/media/olemo.56769f6cd5c726587df6.png",
     "static/media/maize.png": "/beatrice/static/media/maize.e526e9c7c4fad8aae24f.png",
+    "static/media/Kalarufu.png": "/beatrice/static/media/Kalarufu.d2b80e490a4e8e84e7df.png",
     "static/media/kiln-trad.png": "/beatrice/static/media/kiln-trad.0ec58ac1851efbebced4.png",
+    "static/media/osiga.png": "/beatrice/static/media/osiga.6de9be7c0f7562558543.png",
     "static/media/cwaa.png": "/beatrice/static/media/cwaa.afd3fa759b5fcdf7bbc5.png",
     "static/media/bean.png": "/beatrice/static/media/bean.3b617193f7ec38163b74.png",
     "static/media/sweet.png": "/beatrice/static/media/sweet.8e625ededd90326dee00.png",
@@ -29,11 +32,11 @@
     "static/media/kiln-sust.png": "/beatrice/static/media/kiln-sust.a9f31b8fcc837882840a.png",
     "index.html": "/beatrice/index.html",
     "main.553511c6.css.map": "/beatrice/static/css/main.553511c6.css.map",
-    "main.97cd56d2.js.map": "/beatrice/static/js/main.97cd56d2.js.map",
+    "main.e9e64fd5.js.map": "/beatrice/static/js/main.e9e64fd5.js.map",
     "787.005bbac6.chunk.js.map": "/beatrice/static/js/787.005bbac6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.553511c6.css",
-    "static/js/main.97cd56d2.js"
+    "static/js/main.e9e64fd5.js"
   ]
 }
