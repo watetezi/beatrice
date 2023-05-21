@@ -83,19 +83,7 @@ const Knowledge = () => {
 
     return (
 
-        <><CardContent sx={{ maxWidth: 800 }}>
-            <Typography component='div' className="sentence" sx={{ mt: 2 }}>We women are the custodians of the knowledge about ecological practices and we strive to perpetuate it<Button onClick={handleClick} onClose={handleCloseNote}>ꔮ</Button>
-                <Snackbar
-                    open={open}
-                    autoHideDuration={100000}
-                    onClose={handleClose}
-                    message=""
-                    action={action}
-                /> All are centred around agroforestry< br />< br /></Typography>
-        </CardContent>
-
-
-            <Accordion>
+        <><Accordion defaultExpanded={true}>
                 <AccordionSummary
                     expandIcon={<ExpandMoreIcon />}
                     aria-controls="panel1a-content"

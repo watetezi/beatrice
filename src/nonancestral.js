@@ -26,6 +26,9 @@ import TableRow from '@mui/material/TableRow';
 import Yao from "./img/Yao.png";
 import Kalarufu from "./img/Kalarufu.png";
 import Acoga from "./img/Acoga.png";
+import Osiga from "./img/osiga.png";
+import Olemo from "./img/olemo.png";
+import Cassia from "./img/cassia.png";
 
 
 const Nonancestral = () => {
@@ -141,9 +144,7 @@ const Nonancestral = () => {
                                 height="200"
                                 image={Yao}
                                 sx={{ objectFit: "contain" }} />
-                            <CardContent>
-                                <Typography component='div' className="fish" color="text.secondary" gutterBottom>YAAU or YAO<br /><i></i></Typography>
-                            </CardContent>
+                            <Typography sx={{ padding: 1 }} component='div' className="fish" color="text.secondary" gutterBottom>YAAU or YAO </Typography>
                         </Item>
                     </Grid>
                     <Grid item xs={4}>
@@ -151,12 +152,10 @@ const Nonancestral = () => {
                             <CardMedia
                                 component="img"
                                 alt="Kalarufu"
-                                height="200"
+                                height="180"
                                 image={Kalarufu}
                                 sx={{ objectFit: "contain" }} />
-                            <CardContent>
-                                <Typography component='div' className="fish" color="text.secondary" gutterBottom>KALARUFU<br /><i></i></Typography>
-                            </CardContent>
+                            <Typography sx={{ padding: 1 }} component='div' className="fish" color="text.secondary" gutterBottom >KALARUFU </Typography>
                         </Item>
                     </Grid>
                     <Grid item xs={4}>
@@ -164,12 +163,43 @@ const Nonancestral = () => {
                             <CardMedia
                                 component="img"
                                 alt="Acoga"
-                                height="200"
+                                height="180"
                                 image={Acoga}
                                 sx={{ objectFit: "contain" }} />
-                            <CardContent>
-                                <Typography component='div' className="fish" color="text.secondary" gutterBottom>ACOGA<br /><i></i></Typography>
-                            </CardContent>
+                            <Typography sx={{ padding: 1 }} component='div' className="fish" color="text.secondary" gutterBottom>ACOGA </Typography>
+                        </Item>
+                    </Grid>
+                    <Grid item xs={4}>
+                        <Item sx={{ height: '100%' }}>
+                            <CardMedia
+                                component="img"
+                                alt="Osiga"
+                                height="180"
+                                image={Osiga}
+                                sx={{ objectFit: "contain" }} />
+                            <Typography sx={{ padding: 1 }} component='div' className="fish" color="text.secondary" gutterBottom>OSIGA </Typography>
+                        </Item>
+                    </Grid>
+                    <Grid item xs={4}>
+                        <Item sx={{ height: '100%' }}>
+                            <CardMedia
+                                component="img"
+                                alt="Olemo"
+                                height="180"
+                                image={Olemo}
+                                sx={{ objectFit: "contain" }} />
+                            <Typography sx={{ padding: 1 }} component='div' className="fish" color="text.secondary" gutterBottom>OLEMO </Typography>
+                        </Item>
+                    </Grid>
+                    <Grid item xs={4}>
+                        <Item sx={{ height: '100%' }}>
+                            <CardMedia
+                                component="img"
+                                alt="Cassia sieberiana"
+                                height="180"
+                                image={Cassia}
+                                sx={{ objectFit: "contain" }} />
+                            <Typography sx={{ padding: 1 }} component='div' className="fish" color="text.secondary" gutterBottom>Cassia sieberiana </Typography>
                         </Item>
                     </Grid>
                 </Grid>
