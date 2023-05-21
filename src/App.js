@@ -179,14 +179,7 @@ const App = () => {
           padding: '1em',
         }}>
           <CardContent sx={{ maxWidth: 800 }}>
-            <Typography component='div' className="sentence" sx={{ mt: 2 }}>We women are the custodians of the knowledge about ecological practices and we strive to perpetuate it<Button onClick={handleClick} onClose={handleCloseNote}>ꔮ</Button>
-              <Snackbar
-                open={open}
-                autoHideDuration={100000}
-                onClose={handleClose}
-                message=""
-                action={action}
-              /> All are centred around agroforestry< br />< br /></Typography>
+            <Typography component='div' className="sentence" sx={{ mt: 2 }}>We women are the custodians of the knowledge about ecological practices and we strive to perpetuate it. All are centred around agroforestry< br />< br /></Typography>
           </CardContent>
         </FullpageSection>
 
@@ -213,6 +206,55 @@ const App = () => {
         }}>
           < Tree />
         </FullpageSection>
+
+        <FullpageSection style={{
+          backgroundColor: 'rgba(252, 250, 247, 1)',
+          height: '70vh',
+          padding: '1em',
+        }}>
+          <CardContent sx={{ maxWidth: 800 }}>
+            <Typography component='div' className="sentence" sx={{ mt: 2 }}>But land is scarce; customary and collective land has almost disappeared.<Button onClick={handleClick}>ꔮ</Button>
+              <Snackbar
+                open={open}
+                autoHideDuration={100000}
+                onClose={handleClose}
+                message=""
+                action={action}
+              /> We do not own many land, and as women our land rights are even less respected<Button onClick={handleClick}>ꔮ</Button>
+              <Snackbar
+                open={open}
+                autoHideDuration={100000}
+                onClose={handleClose}
+                message=""
+                action={action}
+              /> through an oppressive scheme that reproduces itself in daily life <Button onClick={handleClick}>ꔮ</Button>
+              <Snackbar
+                open={open}
+                autoHideDuration={100000}
+                onClose={handleClose}
+                message=""
+                action={action}
+              />< br />< br /></Typography>
+          </CardContent>
+        </FullpageSection>
+
+        <FullpageSection style={{
+          backgroundColor: 'rgba(252, 250, 247, 1)',
+          height: '70vh',
+          padding: '1em',
+        }}>
+          <CardContent sx={{ maxWidth: 800 }}>
+            <Typography component='div' className="sentence" sx={{ mt: 2 }}>And on the land we cultivate, we suffer from the effects of climate change<Button onClick={handleClick}>MAP</Button>
+              <Snackbar
+                open={open}
+                autoHideDuration={100000}
+                onClose={handleClose}
+                message=""
+                action={action}
+              />< br />< br /></Typography>
+          </CardContent>
+        </FullpageSection>
+
 
       </FullPageSections>
 
