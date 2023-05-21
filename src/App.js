@@ -18,6 +18,7 @@ import Deforestation from './deforestation';
 import Crop from './crop';
 import Knowledge from './knowledge';
 import Nonancestral from './nonancestral';
+import Tree from './tree';
 
 
 
@@ -203,6 +204,14 @@ const App = () => {
           padding: '1em',
         }}>
           < Nonancestral />
+        </FullpageSection>
+
+        <FullpageSection style={{
+          backgroundColor: 'rgba(252, 250, 247, 1)',
+          height: '100vh',
+          padding: '1em',
+        }}>
+          < Tree />
         </FullpageSection>
 
       </FullPageSections>

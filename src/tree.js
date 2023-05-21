@@ -23,15 +23,14 @@ import TableCell from '@mui/material/TableCell';
 import TableContainer from '@mui/material/TableContainer';
 import TableRow from '@mui/material/TableRow';
 
-import Yao from "./img/Yao.png";
-import Kalarufu from "./img/Kalarufu.png";
-import Acoga from "./img/Acoga.png";
-import Osiga from "./img/osiga.png";
-import Olemo from "./img/olemo.png";
-import Cassia from "./img/cassia.png";
+import Maesopsis from "./img/Maesopsis.png";
+import Markaamia from "./img/Markhamia.png";
+import Albizia from "./img/Albizia.png";
+import Mbeni from "./img/Mbeni.png";
+import Pinus from "./img/Pinus.png";
+import Mangifera from "./img/Mangifera.png";
 
-
-const Nonancestral = () => {
+const Tree = () => {
 
 
     const Item = styled(Paper)(({ theme }) => ({
@@ -73,17 +72,17 @@ const Nonancestral = () => {
         </React.Fragment>
     )
 
-    function createData(plant, comm, med, descr, agro) {
-        return { plant, comm, med, descr, agro };
+    function createData(plant, ind, comm, med, descr, agro) {
+        return { plant, ind, comm, med, descr, agro };
     }
 
     const ancestr = [
-        createData('YAAU or YAO - Butyrospermum paradoxum', 'YES', 'YES', 'Significant role in soil and water conservation and environmental protection. Seed husks are an excellent mulch and fertiliser. Furthermore, they can remove heavy metal ions in aqueous solutions. Cooperative plants with cereal crops', 'The kernel of the seed contains a vegetable fat known as shea butter. Refined fat is marketed as margarine and baking fat. The reddish latex which exudes from deep cuts in the bark is used as a chewing gum. The flowers are edible and sometimes made into fritters. High unsaponifiable matter content imparts excellent moisturizing characteristics. Suitable for making candles. As waterproofing material is used as daubing for earthen walls, doors and windows. Waste water from shea butter production has pesticidal properties. Only unproductive and unhealthy trees are cut for timber. Leaves, ground  roots, barks are used in medicine'),
-        createData('KALARUFU - Grevillea robusta', 'YES', 'NO', 'Windbreak, provides fodder for the animals, shade, soil erosion control, soil fertility improvement through mulch/ leaves', 'Wood is used for paneling, joinery, cabinet making. Provide poles. Provide firewood and charcoal'),
-        createData('ACOGA - Carissa edulis', 'NO', 'YES', 'Suitable for planting as a protective hedge', 'Fruits are edible and can be fermented to make a refreshing pink wine or left longer to make vinegar. When planted as a hedge along a fence will be so thick that no stock or wildlife will be able to penetrate it. Roots are used in medicine'),
-        createData('OSIGA - Solanum nigrum', 'NO', 'YES', 'Effective in removing Polychlorinated biphenyls (PCBs) from the soil and detoxifying', 'Fruits are eaten cooked or  used in preserves, jams and pies. Young leaves and new shoots are eated raw or cooked as a potherb or added to soups. Leaves, stems and roots are used in medicine'),
-        createData('OLEMO - Ximenia americana', 'YES', 'YES', 'Suitable for planting as a protective hedge', 'The fruits, as well as being pleasant to eat raw, can be used to make juice, jams and jellies. Kernel oil is used as a vegetable butter and as a ghee substitute. Young leaves are edible after thorough cooking. Firewood and charcoal are the main uses of the wood. Heartwood contains an essential oil used for fumigation. The flowers have an essential oil. Sambunigrine has been identified as the main cyanogenetic principle in the plant. Leaves, barks, roots, fruits and twigs are used in medicine'),
-        createData('Cassia sieberiana', 'YES', 'YES', 'Planted in shelterbelts', 'Heartwood is finely textured, heavy, very hard, resistant to termites and difficult to work. The pods are traded as vermifuge. Leaves, roots and pods are widely used in medicine'),
+        createData('Maesopsis Eminii', 'YES', 'YES', 'YES', 'Used for reforestation purposes, leaves are used as fodder, shade', 'The wood is used for purposes such as light construction, boxes and crates, millwork, plywood or core stock. Fast maturation period comparable with introduced coniferous trees and produces comparatively more wood per unit area. Roots and barks are used in medicine.'),
+        createData('Markaamia lutea', 'YES', 'YES', 'YES', 'Shade, soil erosion control, soil fertility improvement through nitrogen-fixing, soil fertility improvement through mulch/ leaves', 'The wood is moderately durable, being moderately resistant to termites.  It is held to be an excellent timber for interior carpentry and cabinetry. Roots are used in medicine'),
+        createData('Albizia coriaria ', 'YES', 'YES', 'YES', 'Shade, soil fertility improvement through nitrogen-fixing, soil fertility improvement through mulch/ leaves,bee forage', 'The wood is used for construction, joinery, turnery, implements, carvings. It is also suitable for carpentry, musical instruments, boxes and crates. Leaves used to hasten banana ripening. Bark, leaves, and roots are used in medicine'),
+        createData('MBENI - Eucalyptus grandis', 'NO', 'YES', 'YES', 'Shade, riverbank stabilization, windbreak', 'The wood is a source of timber which can be used for boat building. The firewood is used for domestic purposes and for curing tobacco. Ground branch tips and leaves are used in medicine'),
+        createData('Pinus caribaea', 'NO', 'YES', 'YES', 'Shade, soil erosion control, windbreak', 'Vanillin flavouring is obtained as a by-product of other resins that are released from the pulpwood. The sapwood can be tapped for oleoresin. Provides timber. Leaf oil, resin and barks are used in medicine'),
+        createData('Mangifera indica', 'NO', 'YES', 'YES', 'Windbreak, shade', 'Fruits are eaten raw, juiced or prepared in chutneys, jams, pickles. Seeds are used in the preparation of pudding. Young leaves can be cooked as a vegetable. The bark and the leaves are the source of a yellowish-brown dye. The flowers are used to repel mosquitoes. The slender branches are used as toothbrushes to treat toothache. The wood is used for indoor construction, furniture, carpentry,  boxes, crates and boat building. Leaves, seeds, barks, roots, flowers and fruit are used in medicine'),
     ];
 
 
@@ -99,7 +98,7 @@ const Nonancestral = () => {
                     aria-controls="panel1a-content"
                     id="panel1a-header"
                 >
-                    <Typography sx={{ fontSize: "11px !important", WebkitTextFillColor: "rgb(105, 105, 105) !important" }} className="fishChallenges">LIST OF TREES WITH A DISCRETE ANCESTRAL KNOWLEDGE</Typography>
+                    <Typography sx={{ fontSize: "11px !important", WebkitTextFillColor: "rgb(105, 105, 105) !important" }} className="fishChallenges">LIST OF FURTHER INDIGENOUS OR COMMERCIALLY INTRODUCED TREES</Typography>
                 </AccordionSummary>
                 <AccordionDetails>
                     <TableContainer component={Paper} sx={{ maxHeight: 350, overflow: 'auto' }}>
@@ -107,6 +106,7 @@ const Nonancestral = () => {
                             <TableHead>
                                 <TableRow>
                                     <TableCell>Tree name and species</TableCell>
+                                    <TableCell align="center">Indigenous</TableCell>
                                     <TableCell align="center">Commercial use</TableCell>
                                     <TableCell align="center">Medicinal use</TableCell>
                                     <TableCell align="center">Agroforestry use</TableCell>
@@ -122,6 +122,7 @@ const Nonancestral = () => {
                                         <TableCell component="th" scope="row">
                                             {row.plant}
                                         </TableCell>
+                                        <TableCell align="center">{row.ind}</TableCell>
                                         <TableCell align="center">{row.comm}</TableCell>
                                         <TableCell align="center">{row.med}</TableCell>
                                         <TableCell align="center">{row.descr}</TableCell>
@@ -140,66 +141,66 @@ const Nonancestral = () => {
                         <Item sx={{ height: '100%' }}>
                             <CardMedia
                                 component="img"
-                                alt="Yao"
+                                alt="Maesopsis Eminii"
                                 height="180"
-                                image={Yao}
+                                image={Maesopsis}
                                 sx={{ objectFit: "contain" }} />
-                            <Typography sx={{ padding: 1 }} component='div' className="fish" color="text.secondary" gutterBottom>YAAU or YAO</Typography>
+                            <Typography sx={{ padding: 1 }} component='div' className="fish" color="text.secondary" gutterBottom>Maesopsis Eminii</Typography>
                         </Item>
                     </Grid>
                     <Grid item xs={4}>
                         <Item sx={{ height: '100%' }}>
                             <CardMedia
                                 component="img"
-                                alt="Kalarufu"
+                                alt="Markaamia lutea"
                                 height="180"
-                                image={Kalarufu}
+                                image={Markaamia}
                                 sx={{ objectFit: "contain" }} />
-                            <Typography sx={{ padding: 1 }} component='div' className="fish" color="text.secondary" gutterBottom >KALARUFU</Typography>
+                            <Typography sx={{ padding: 1 }} component='div' className="fish" color="text.secondary" gutterBottom >Markaamia lutea</Typography>
                         </Item>
                     </Grid>
                     <Grid item xs={4}>
                         <Item sx={{ height: '100%' }}>
                             <CardMedia
                                 component="img"
-                                alt="Acoga"
+                                alt="Albizia coriaria "
                                 height="180"
-                                image={Acoga}
+                                image={Albizia}
                                 sx={{ objectFit: "contain" }} />
-                            <Typography sx={{ padding: 1 }} component='div' className="fish" color="text.secondary" gutterBottom>ACOGA</Typography>
+                            <Typography sx={{ padding: 1 }} component='div' className="fish" color="text.secondary" gutterBottom>Albizia coriaria </Typography>
                         </Item>
                     </Grid>
                     <Grid item xs={4}>
                         <Item sx={{ height: '100%' }}>
                             <CardMedia
                                 component="img"
-                                alt="Osiga"
+                                alt="Mbeni"
                                 height="180"
-                                image={Osiga}
+                                image={Mbeni}
                                 sx={{ objectFit: "contain" }} />
-                            <Typography sx={{ padding: 1 }} component='div' className="fish" color="text.secondary" gutterBottom>OSIGA</Typography>
+                            <Typography sx={{ padding: 1 }} component='div' className="fish" color="text.secondary" gutterBottom>MBENI</Typography>
                         </Item>
                     </Grid>
                     <Grid item xs={4}>
                         <Item sx={{ height: '100%' }}>
                             <CardMedia
                                 component="img"
-                                alt="Olemo"
+                                alt="Pinus caribaea"
                                 height="180"
-                                image={Olemo}
+                                image={Pinus}
                                 sx={{ objectFit: "contain" }} />
-                            <Typography sx={{ padding: 1 }} component='div' className="fish" color="text.secondary" gutterBottom>OLEMO</Typography>
+                            <Typography sx={{ padding: 1 }} component='div' className="fish" color="text.secondary" gutterBottom>Pinus caribaea</Typography>
                         </Item>
                     </Grid>
                     <Grid item xs={4}>
                         <Item sx={{ height: '100%' }}>
                             <CardMedia
                                 component="img"
-                                alt="Cassia sieberiana"
+                                alt="Mangifera indica"
                                 height="180"
-                                image={Cassia}
+                                image={Mangifera}
                                 sx={{ objectFit: "contain" }} />
-                            <Typography sx={{ padding: 1 }} component='div' className="fish" color="text.secondary" gutterBottom>Cassia sieberiana</Typography>
+                            <Typography sx={{ padding: 1 }} component='div' className="fish" color="text.secondary" gutterBottom>Mangifera indica</Typography>
                         </Item>
                     </Grid>
                 </Grid>
@@ -209,4 +210,4 @@ const Nonancestral = () => {
 }
 
 
-export default Nonancestral;
+export default Tree;
