@@ -247,7 +247,19 @@ const App = () => {
           padding: '1em',
         }}>
           <CardContent sx={{ maxWidth: 800 }}>
-            <Typography component='div' className="sentence" sx={{ mt: 2 }}>As community and women's groups, we are working to restore the forest to its ecological functionality, and reintroduce agroforestry practices<br /><br /></Typography>
+            <Typography component='div' className="sentence" sx={{ mt: 2 }}>As community and women's groups, we are working to restore the forest to its ecological functionality, <Button onClick={handleClick}>ꔮ</Button>
+              <Snackbar
+                open={open}
+                autoHideDuration={100000}
+                onClose={handleCloseNote}
+                message="We know that we do not have enough forest resources to heat ourselves, build our homes and cook. In our parish alone live 628 households; never have so many people inhabited this land, never have there been so few forest resources available. Also, almost exclusively financial reasons, leads to cutting trees for burning charcoal and firewood. Specifically, two-thirds of people report that in the absence of other sources of income, they sell forest products rather than for household use."
+                action={action} /> and reintroduce agroforestry practices<Button onClick={handleClick}>ꔮ</Button>
+              <Snackbar
+                open={open}
+                autoHideDuration={100000}
+                onClose={handleCloseNote}
+                message="What we do as women in agroforestry: transplanting the seedlings from the nursery beds; planting the seedlings, watering the seedlings, prepare tea for all the people involved. Women are also elected to sit on and therefore make decisions in the market committee of forestry groups. Two nursery operators also live and work in the sub-county and help with operations."
+                action={action} /><br /><br /></Typography>
           </CardContent>
         </FullpageSection>
 
@@ -257,7 +269,13 @@ const App = () => {
           padding: '1em',
         }}>
           <CardContent sx={{ maxWidth: 800 }}>
-            <Typography component='div' className="sentence" sx={{ mt: 2 }}>Here is a solution; we pretend not to be forced into migration because we can't continue to keep our livelihoods. But we need support, such as what Environmental Defenders is giving us<br /><br /></Typography>
+            <Typography component='div' className="sentence" sx={{ mt: 2 }}>Here is a solution; we pretend not to be forced into migration because we can't continue to keep our livelihoods. But we need support, such as what Environmental Defenders is giving us<Button onClick={handleClick}>ꔮ</Button>
+              <Snackbar
+                open={open}
+                autoHideDuration={100000}
+                onClose={handleCloseNote}
+                message="Seeds collection, banking, and storage, nursery and distribution of seedlings, is an initiative by Environmental Defenders, as part of their actions towards environmental conservation. It is not being implemented by any other organization in the sub-county."
+                action={action} /><br /><br /></Typography>
           </CardContent>
         </FullpageSection>
 
@@ -268,7 +286,7 @@ const App = () => {
           borderTop: '1px solid rgba(114, 114, 114, 0.5)'
         }}>
           <CardContent sx={{ maxWidth: 800 }}>
-            <Typography component='div' className="footer" sx={{ mt: 2 }}>Many thanks to<div className='gagga'></div> which, through <div className='mama'></div><div className='packard'></div> allowed the women of Dei's sub-county to amplify their voices, thanks to the careful work of the Environmental Defenders team and the scientific coordination of Pamella Lakidi Achan
+            <Typography component='div' className="footer" sx={{ mt: 2 }}>Many thanks to<div className='gagga'></div> which, through <div className='mama'></div><div className='packard'></div> allowed the women of Dei's sub-county to amplify their voices, thanks to the careful work of the Environmental Defenders team and the scientific coordination of Pamella Lakidi Achan<br /><br /><br />
             </Typography>
           </CardContent>
         </FullpageSection>
