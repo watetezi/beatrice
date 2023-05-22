@@ -220,6 +220,15 @@ a:visited {
   background-position: bottom right;
 }
 
+.water {
+  background: url("../public/img/water.png") no-repeat;
+  background-repeat: no-repeat;
+  background-size: 40vw;
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: center right;
+}
+
 .agro {
   background: url("../public/img/agro.png") no-repeat;
   background-repeat: no-repeat;
