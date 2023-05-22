@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/beatrice/static/css/main.7645713f.css",
-    "main.js": "/beatrice/static/js/main.abdeaa9b.js",
+    "main.css": "/beatrice/static/css/main.9a39983c.css",
+    "main.js": "/beatrice/static/js/main.d066d02d.js",
     "static/js/787.005bbac6.chunk.js": "/beatrice/static/js/787.005bbac6.chunk.js",
     "static/media/water.png": "/beatrice/static/media/water.db26f585f554eb3eaea5.png",
     "static/media/agro.png": "/beatrice/static/media/agro.18deb0bf882d8958089b.png",
@@ -37,13 +37,17 @@
     "static/media/Aljac_u0.png": "/beatrice/static/media/Aljac_u0.2c005221114f0c115cb6.png",
     "static/media/Raarg_u0.png": "/beatrice/static/media/Raarg_u0.41c2a19f03573426f06d.png",
     "static/media/kiln-sust.png": "/beatrice/static/media/kiln-sust.a9f31b8fcc837882840a.png",
+    "static/media/gagga.png": "/beatrice/static/media/gagga.9416060222e7bc1e25b8.png",
+    "static/media/packard.png": "/beatrice/static/media/packard.5210d94aec8a7ea43c38.png",
+    "static/media/mama.png": "/beatrice/static/media/mama.b17810fecbdf5e67aac0.png",
+    "static/media/logo.png": "/beatrice/static/media/logo.505663c87488cba1c118.png",
     "index.html": "/beatrice/index.html",
-    "main.7645713f.css.map": "/beatrice/static/css/main.7645713f.css.map",
-    "main.abdeaa9b.js.map": "/beatrice/static/js/main.abdeaa9b.js.map",
+    "main.9a39983c.css.map": "/beatrice/static/css/main.9a39983c.css.map",
+    "main.d066d02d.js.map": "/beatrice/static/js/main.d066d02d.js.map",
     "787.005bbac6.chunk.js.map": "/beatrice/static/js/787.005bbac6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7645713f.css",
-    "static/js/main.abdeaa9b.js"
+    "static/css/main.9a39983c.css",
+    "static/js/main.d066d02d.js"
   ]
 }
