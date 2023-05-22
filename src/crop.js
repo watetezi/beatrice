@@ -82,7 +82,7 @@ const Crop = () => {
                     autoHideDuration={100000}
                     onClose={handleCloseNote}
                     message="We store the maize cobs over the kitchen fire.  The smoke from cooking preserves the seeds, which we store in our house for the next season's sowing. So do the other seeds. We do not have a proper seed bank, the traditional ones have been destroyed due to lack of maintenance or disastrous climatic events, such as floods. The introduction of varieties we are not familiar with and from outside makes our role difficult. Some cassava varieties introduced from outside cannot be preserved; we prefer local varieties. We have had seeds of cotton and tomato varieties that do not grow here. We ask for more attention to the control of varieties when introduced from outside."
-                    action={action} /> We are joined in groups to overcome challenges</Typography>
+                    action={action} /></Typography>
         </CardContent><Box sx={{ width: '100%' }}>
                 <Grid container rowSpacing={1} columnSpacing={{ xs: 1, sm: 2, md: 3 }}>
                     <Grid item xs={3}>

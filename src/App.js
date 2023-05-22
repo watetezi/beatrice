@@ -65,20 +65,12 @@ const App = () => {
           padding: '1em',
         }}>
           <CardContent sx={{ maxWidth: 800 }}>
-            <Typography component='div' className="sentence" sx={{ mt: 2 }}>My name is Beatrice and I am an Alur<Button onClick={handleClick} onClose={handleCloseNote}>ꔮ</Button>
-              <Snackbar
-                open={open}
-                autoHideDuration={100000}
-                onClose={handleCloseNote}
-                message=""
-                action={action}
-              />
-              fisherwoman from Lake Albert<Button onClick={handleClick}>ꔮ</Button>
+            <Typography component='div' className="sentence" sx={{ mt: 2 }}>My name is Beatrice and I am an Alur fisherwoman from Lake Albert<Button onClick={handleClick}>ꔮ</Button>
               <Snackbar
                 open={open}
                 autoHideDuration={100000}
                 onClose={handleClose}
-                message="Who in recent centuries we have also called M'vouta-N'zighé (Wutan-Zigé) among Alur people"
+                message="We call the lake by the name of M'vouta-N'zighé (Wutan-Zigé) as spoken in the Alur language and the dialect of the lower lands, the Jonam. The north-western shore of the lake is our ancestral land, since we anciently migrated with other Luo groups from the confluence of the Nile River and Bahr-el-Ghazel (today Sudan), our homeland, to settle in this area. "
                 action={action}
               /></Typography>
           </CardContent>
@@ -130,6 +122,13 @@ const App = () => {
           < Boat />
         </FullpageSection>
 
+        <FullpageSection className='deforestation' style={{
+          backgroundColor: 'rgba(252, 250, 247, 1)',
+          height: '100vh',
+          padding: '1em',
+        }}>
+          < Deforestation />
+        </FullpageSection>
 
         <FullpageSection style={{
           backgroundColor: 'rgba(252, 250, 247, 1)',
@@ -139,22 +138,13 @@ const App = () => {
           < Kiln />
         </FullpageSection>
 
-        <FullpageSection className='deforestation' style={{
-          backgroundColor: 'rgba(252, 250, 247, 1)',
-          height: '100vh',
-          padding: '1em',
-        }}>
-          < Deforestation />
-        </FullpageSection>
-
-
         <FullpageSection className='agro' style={{
           backgroundColor: 'rgba(252, 250, 247, 1)',
           height: '100vh',
           padding: '1em',
         }}>
           <CardContent sx={{ maxWidth: 800 }}>
-            <Typography component='div' className="sentence" sx={{ mt: 2 }}>So, we can no longer rely entirely on fishing. We cultivate garden to complement our subsistence<Button onClick={handleClick}>MAP</Button>
+            <Typography component='div' className="sentence" sx={{ mt: 2 }}>However, at present, we cannot rely entirely on fishing. So, we cultivate garden to complement our subsistence<Button onClick={handleClick}>MAP</Button>
               <Snackbar
                 open={open}
                 autoHideDuration={100000}
@@ -217,14 +207,14 @@ const App = () => {
               <Snackbar
                 open={open}
                 autoHideDuration={100000}
-                onClose={handleClose}
+                onClose={handleCloseNote}
                 message="First it was the forests that became private during the 20th century. Then the same forests were cleared for extensive and then intensive agricultural use. While initially agriculture served to feed the growing population of Dei's sub-county and the products sold to the local market, over time the profitability of some cash crops was evaluated. This has brought an end to agroforestry and drastically reduced the acreage of land available for subsistence farming, which is now critically important for the livelihoods (on average, people need one acre of land per household) of many households given the challenges being posed in the fisheries sector."
                 action={action}
               /> We do not own many land, and as women our land rights are even less respected through an oppressive scheme that reproduces itself in daily life <Button onClick={handleClick}>ꔮ</Button>
               <Snackbar
                 open={open}
                 autoHideDuration={100000}
-                onClose={handleClose}
+                onClose={handleCloseNote}
                 message="Land – its access, control and ownership – lies at the heart of power relationships within Uganda. The struggle for land is deeply intertwined with the struggle for women’s rights. Women’s access to and control over resources and economic decision making is fundamental to the achievement of their rights. Despite some progress, inequality between women and men in ownership and control of land remains stark. Cultural prohibitions against women’s ownership of land are often more powerful than statutory laws that allow women to own land. These cultural norms may determine which rights to land a woman can exercise freely. Effective statutory laws protecting land, inheritance and property rights of women including the widowed, divorced, separated or those in co-habitation are critically missing. Moreover, violence is breeding in Dei, particularly gender-based violence. There were 10 murder cases recorded between 2021 and 2022, including gender-based violence involving young people, mainly due to relationship break-ups or theft offences. Daily life hinges on violations, such as those at the landing site, where fish happened to be sold in return for transactional sex."
                 action={action}
               />< br />< br /></Typography>
@@ -237,18 +227,18 @@ const App = () => {
           padding: '1em',
         }}>
           <CardContent sx={{ maxWidth: 800 }}>
-            <Typography component='div' className="sentence" sx={{ mt: 2 }}>And on the land we cultivate, we suffer from the effects of climate change<Button onClick={handleClick}>ꔮ</Button>
+            <Typography component='div' className="sentence" sx={{ mt: 2 }}>More than that, on the land we cultivate, we suffer from the effects of climate change<Button onClick={handleClick}>ꔮ</Button>
               <Snackbar
                 open={open}
                 autoHideDuration={100000}
-                onClose={handleClose}
+                onClose={handleCloseNote}
                 message="Our seeds fail even if the soils are fertile because we can no longer count with the frequency and intensity of rainfall. Periods of prolonged drought are affecting planting and crop yields. Severe drought, especially in the first season of 2019, affected farmers who planted oranges and mangoes, because it did not allow seedlings to establish properly in the field and they eventually dried out."
                 action={action}
               /><Button onClick={handleClick}>MAP</Button>
               <Snackbar
                 open={open}
                 autoHideDuration={100000}
-                onClose={handleClose}
+                onClose={handleCloseNote}
                 message="Since 2016, Lake Albert's water level has been rising steadily, and during the rainy season it floods a large number of fishing villages. The map shows the areas that have been flooded by water over the past five years. Lack of natural shore defences causes the lake to easily flood such flat areas."
                 action={action}
               />< br />< br /></Typography>
