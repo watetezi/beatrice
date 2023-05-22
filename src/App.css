@@ -9,6 +9,10 @@
   pointer-events: none;
 }
 
+body{
+  background-color: rgba(252, 250, 247, 1);
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -211,6 +215,57 @@ a:visited {
   background-position: bottom center;
 }
 
+.logo {
+  background: url("../public/logo.png") no-repeat;
+  background-repeat: no-repeat;
+  background-size: 50px 50px;
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  margin-top: 5%;
+  margin-left: 95%;
+  z-index: 1;
+}
+
+.footer{
+  font-family: 'IBM Plex Mono', monospace !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 400 !important;
+  font-size: 0.85em !important;
+  display: inline;
+}
+
+.gagga {
+  background: url("../public/img/gagga.png") no-repeat;
+  background-repeat: no-repeat;
+  background-size: 130px 40px;
+  width: 350px;
+  height: 30px;
+  position: relative;
+  padding: 10px;
+}
+
+.mama {
+  background: url("../public/img/mama.png") no-repeat;
+  background-repeat: no-repeat;
+  background-size: 50px 50px;
+  width: 200px;
+  height: 50px;
+  position: relative;
+  padding: 5px;
+}
+
+.packard {
+  background: url("../public/img/packard.png") no-repeat;
+  background-repeat: no-repeat;
+  background-size: 130px 50px;
+  width: 350px;
+  height: 50px;
+  position: relative;
+  padding: 5px;
+}
+
 .deforestation {
   background: url("../public/img/deforestation_lakeA.png") no-repeat;
   background-repeat: no-repeat;
@@ -314,6 +369,12 @@ a:visited {
     background-position: bottom right;
   }
 
+  .water {
+    background-size: 100vw !important;
+    height: 100vh;
+    background-position: bottom right;
+  }
+
   .tradkiln {
     display: none;
   }
@@ -348,5 +409,13 @@ a:visited {
   .MuiSnackbarContent-message {
     font-size: 1.5em !important;
   }
+
+  .logo {
+    background-size: 40px 40px;
+    width: 40px;
+    height: 40px;
+    margin-top: 3%;
+    margin-left: 87%;
+  }  
 
 }
