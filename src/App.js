@@ -265,7 +265,7 @@ const App = () => {
 
         <FullpageSection style={{
           backgroundColor: 'rgba(252, 250, 247, 1)',
-          height: '60vh',
+          height: '45vh',
           padding: '1em',
         }}>
           <CardContent sx={{ maxWidth: 800 }}>
@@ -281,12 +281,16 @@ const App = () => {
 
         <FullpageSection className='footer' style={{
           backgroundColor: 'rgba(252, 250, 247, 1)',
-          height: '30vh',
+          height: '100vh',
           padding: '1em',
           borderTop: '1px solid rgba(114, 114, 114, 0.5)'
         }}>
-          <CardContent sx={{ maxWidth: 800 }}>
-            <Typography component='div' className="footer" sx={{ mt: 2 }}>Many thanks to<div className='gagga'></div> which, through <div className='mama'></div><div className='packard'></div> allowed the women of Dei's sub-county to amplify their voices, thanks to the careful work of the Environmental Defenders team and the scientific coordination of Pamella Lakidi Achan<br /><br /><br />
+          <CardContent className='cc'>
+            <Typography component='div' className="footert" sx={{ mt: 2 }}>Many thanks to<div className='gagga'></div> which, through <div className='mama'></div><div className='packard'></div> allowed the women of Dei's sub-county to amplify their voices, thanks to the careful work of the Environmental Defenders team and the scientific coordination of Pamella Lakidi Achan<br /><br /><br />
+            </Typography>
+          </CardContent>
+          <CardContent className='cc'>
+            <Typography component='div' className="footert" sx={{ mt: 2 }}><div className='logofooter'></div>Environmental Defenders,<br />PO-BOX, 9520 Kampala, Uganda<div className='license'></div><br /><br /><br />
             </Typography>
           </CardContent>
         </FullpageSection>

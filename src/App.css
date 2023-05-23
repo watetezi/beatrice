@@ -9,7 +9,7 @@
   pointer-events: none;
 }
 
-body{
+body {
   background-color: rgba(252, 250, 247, 1);
 }
 
@@ -227,13 +227,17 @@ a:visited {
   z-index: 1;
 }
 
-.footer{
+.footer {
+  vertical-align: top;
+  font-size: 0.8em !important;
+}
+
+.footert {
   font-family: 'IBM Plex Mono', monospace !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-weight: 400 !important;
   font-size: 0.85em !important;
-  display: inline;
 }
 
 .gagga {
@@ -256,6 +260,28 @@ a:visited {
   padding: 5px;
 }
 
+.logofooter {
+  background: url("../public/img/logofooter.png") no-repeat;
+  background-repeat: no-repeat;
+  background-size: 60px 60px;
+  width: 60px;
+  height: 60px;
+  position: relative;
+  padding: 5px;
+}
+
+
+.license {
+  background: url("../public/img/license.png") no-repeat;
+  background-repeat: no-repeat;
+  background-size: 200px 50px;
+  width: 200px;
+  height: 50px;
+  position: relative;
+  padding: 5px;
+  margin-top: 20px;
+}
+
 .packard {
   background: url("../public/img/packard.png") no-repeat;
   background-repeat: no-repeat;
@@ -264,6 +290,14 @@ a:visited {
   height: 50px;
   position: relative;
   padding: 5px;
+}
+
+.cc {
+  width: 30%;
+  display: inline-block;
+  margin: 0;
+  padding-right: 30px !important;
+  vertical-align: top;
 }
 
 .deforestation {
@@ -416,6 +450,6 @@ a:visited {
     height: 40px;
     margin-top: 2%;
     margin-left: 87%;
-  }  
+  }
 
 }

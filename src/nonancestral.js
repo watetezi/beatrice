@@ -28,7 +28,7 @@ import Kalarufu from "./img/Kalarufu.png";
 import Acoga from "./img/Acoga.png";
 import Osiga from "./img/osiga.png";
 import Olemo from "./img/olemo.png";
-import Cassia from "./img/cassia.png";
+import Tooo from "./img/tooo.png";
 
 
 const Nonancestral = () => {
@@ -83,6 +83,7 @@ const Nonancestral = () => {
         createData('ACOGA - Carissa edulis', 'NO', 'YES', 'Suitable for planting as a protective hedge', 'Fruits are edible and can be fermented to make a refreshing pink wine or left longer to make vinegar. When planted as a hedge along a fence will be so thick that no stock or wildlife will be able to penetrate it. Roots are used in medicine'),
         createData('OSIGA - Solanum nigrum', 'NO', 'YES', 'Effective in removing Polychlorinated biphenyls (PCBs) from the soil and detoxifying', 'Fruits are eaten cooked or  used in preserves, jams and pies. Young leaves and new shoots are eated raw or cooked as a potherb or added to soups. Leaves, stems and roots are used in medicine'),
         createData('OLEMO - Ximenia americana', 'YES', 'YES', 'Suitable for planting as a protective hedge', 'The fruits, as well as being pleasant to eat raw, can be used to make juice, jams and jellies. Kernel oil is used as a vegetable butter and as a ghee substitute. Young leaves are edible after thorough cooking. Firewood and charcoal are the main uses of the wood. Heartwood contains an essential oil used for fumigation. The flowers have an essential oil. Sambunigrine has been identified as the main cyanogenetic principle in the plant. Leaves, barks, roots, fruits and twigs are used in medicine'),
+        createData('TOOO - Balanites aegyptiaca', 'YES', 'YES', 'Planted in shelterbelts, shade', 'The fleshy pulp of both unripe and ripe fruit is edible and eaten dried or fresh. Flowers are sucked to obtain nectar. A strong fibre is obtained from the bark. The wood is hard, durable, worked easily and made into yokes, wooden spoons, pestles, mortars, handles, stools and combs.A greenish-yellow to orange-red resin is produced from the stems. It is sucked and chewed when fresh. The kernels produce edible oil used for cooking. Roots are used in medicine'),
         createData('Cassia sieberiana', 'YES', 'YES', 'Planted in shelterbelts', 'Heartwood is finely textured, heavy, very hard, resistant to termites and difficult to work. The pods are traded as vermifuge. Leaves, roots and pods are widely used in medicine'),
     ];
 
@@ -195,11 +196,11 @@ const Nonancestral = () => {
                         <Item sx={{ height: '100%' }}>
                             <CardMedia
                                 component="img"
-                                alt="Cassia sieberiana"
+                                alt="Tooo"
                                 height="180"
-                                image={Cassia}
+                                image={Tooo}
                                 sx={{ objectFit: "contain" }} />
-                            <Typography sx={{ padding: 1 }} component='div' className="fish" color="text.secondary" gutterBottom>Cassia sieberiana</Typography>
+                            <Typography sx={{ padding: 1 }} component='div' className="fish" color="text.secondary" gutterBottom>TOOO</Typography>
                         </Item>
                     </Grid>
                 </Grid>
