@@ -425,6 +425,11 @@ a:visited {
     padding: 2px;
   }
 
+  .MuiTableCell-root {
+    font-weight: 400 !important;
+    font-size: 0.6em !important;
+  }
+
   .fish {
     font-size: 0.8em !important;
   }
@@ -437,7 +442,7 @@ a:visited {
   }
 
   .MuiCardContent-root {
-    padding: 2px !important;
+    /* padding: 2px !important; */
   }
 
   .MuiSnackbarContent-message {
@@ -451,5 +456,11 @@ a:visited {
     margin-top: 2%;
     margin-left: 87%;
   }
+
+  .license {
+    background-size: 100px 25px;
+    width: 100px;
+    height: 25px;
+  }  
 
 }

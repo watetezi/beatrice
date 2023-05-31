@@ -58,7 +58,7 @@ const FishChallenges = () => {
     return (
 
         <><CardContent sx={{ maxWidth: 800 }}>
-            <Typography component='div' className="sentence" sx={{ mt: 2 }}>You can spot me coming back from a fishing trip onboard any of the 80 between canoes and boats at Dei's landing sites. In 2020 there were 690.<Button onClick={handleClick}>ꔮ</Button>
+            <Typography component='div' className="sentence" sx={{ mt: 2 }}>You can spot me coming back from a fishing trip onboard any of the 80 between canoes and boats at Dei's landing sites. In 2020 there were 690 boats.<Button onClick={handleClick}>ꔮ</Button>
                 <Snackbar
                     open={open}
                     autoHideDuration={100000}
