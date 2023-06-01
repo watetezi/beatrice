@@ -44,7 +44,7 @@ a:active {
 }
 
 a:visited {
-  color: rgba(163, 75, 75, 0.5) !important;
+  color: rgb(114, 114, 114)!important;
 }
 
 ::-webkit-scrollbar {
@@ -163,6 +163,8 @@ a:visited {
   -webkit-text-fill-color: rgb(114, 114, 114, 1);
   -webkit-text-stroke-width: 0;
   -webkit-text-stroke-color: rgb(114, 114, 114, .5);
+  animation: opacity 2s ease-in-out infinite alternate;
+  -webkit-animation: opacity 2s ease-in-out infinite alternate;
 }
 
 .MuiButton-text:hover {
@@ -177,6 +179,7 @@ a:visited {
   font-family: 'IBM Plex Mono', monospace !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  text-transform: uppercase;
   font-weight: 100 !important;
   font-size: 0.6em !important;
   letter-spacing: 5px !important;
@@ -461,6 +464,6 @@ a:visited {
     background-size: 100px 25px;
     width: 100px;
     height: 25px;
-  }  
+  }
 
 }

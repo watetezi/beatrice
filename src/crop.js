@@ -73,13 +73,13 @@ const Crop = () => {
             <Typography component='div' className="sentence" sx={{ mt: 2 }}>It is mostly us women, those engaged in agricultural work. <Button onClick={handleClick}>ꔮ</Button>
                 <Snackbar
                     open={open}
-                    autoHideDuration={100000}
+                    autoHideDuration={10000}
                     onClose={handleCloseNote}
                     message="Seasonally we plant twice, between March-April and August-September, i.e. at the beginning of the rainy seasons (the first rainy season stretches from March to June, the second from mid-August to the end of November). Harvest is in June-July and November-December. Only two-fifths of us manage to use their stored seeds (in particular, cassava, beans, grandnuts and soybeans seeds are preserved). We need seeds. The government supports us sporadically at the district level: during the period 2019-2022, on average, a farmer received 6-6.5 kg of maize and planted it on just over half (0.63-0.65) of an acre; each cassava cuttings beneficiary received 7 bags of cuttings and planted it on average on just about an acre; each bean farmer received 13 kgs of seeds and planted it on average on less than half (0.44) of an acre. The ratio of females to males in the seed distribution was about 1:1. We chronically suffer with seed deficit despite public support, so we need the support of programmes of local and regional organisations. We complain about timing errors by the National Agriculture Advisory Services NAADS - OCW Programme with the supply of seeds, which are brought here when the planting season is over and we enter the dry season. We are organising ourselves into women's groups to cope; in Dei you can meet the Chan Ber Ku Fur Women' Group."
                     action={action} /> Among us are the seed custodians.<Button onClick={handleClick}>ꔮ</Button>
                 <Snackbar
                     open={open}
-                    autoHideDuration={100000}
+                    autoHideDuration={10000}
                     onClose={handleCloseNote}
                     message="We store the maize cobs over the kitchen fire.  The smoke from cooking preserves the seeds, which we store in our house for the next season's sowing. So do the other seeds. We do not have a proper seed bank, the traditional ones have been destroyed due to lack of maintenance or disastrous climatic events, such as floods. The introduction of varieties we are not familiar with and from outside makes our role difficult. Some cassava varieties introduced from outside cannot be preserved; we prefer local varieties. We have had seeds of cotton and tomato varieties that do not grow here. We ask for more attention to the control of varieties when introduced from outside."
                     action={action} /></Typography>

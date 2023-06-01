@@ -1,6 +1,5 @@
 import React from 'react';
-import { MapContainer, TileLayer, Marker, LayerGroup, Popup, Tooltip, LayersControl, Circle, FeatureGroup } from "react-leaflet";
-import L from "leaflet";
+import { MapContainer, TileLayer} from "react-leaflet";
 import 'leaflet/dist/leaflet.css';
 
 
@@ -18,7 +17,7 @@ return (
     <MapContainer
         doubleClickZoom={false}
         center={center}
-        zoom={15}
+        zoom={14}
         scrollWheelZoom={false}
         minZoom={14}
         maxZoom={16}

@@ -65,7 +65,7 @@ const Deforestation = () => {
             <Typography component='div' className="sentence" sx={{ mt: 2 }}>We know fishing practices must take place through careful management of forest resources; for instance, wood collection for fish smoking has cleared several acres of forest across fishing villages<Button onClick={handleClick}>MAP</Button>
                 <Snackbar
                     open={open}
-                    autoHideDuration={100000}
+                    autoHideDuration={10000}
                     onClose={handleCloseNote}
                     message="The map proves the gross forest cover loss in the period 2000-2021 (source: Hansen/UMD/Google/USGS/NASA). Reasons include a combination of anthropogenic disturbances and natural or climatic cycles, but in the fishing villages, within 1 km distance from shoreline, it remains among the leading causes of deforestation. In the village of Dei, almost one in two people will state fish smoking is the reason for cutting down a tree. Traditional earthen kilns have enabled the Alur to preserve their catch for generations, being hugely important in ensuring our food security; the new kiln, when completed, will allow us to continue this practice without impacting forestry"
                     action={action}

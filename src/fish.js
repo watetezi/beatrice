@@ -70,7 +70,7 @@ const Fish = () => {
             <Typography component='div' className="sentence" sx={{ mt: 2 }}>Many of us fish Mukene, Onangnang, Angara and Ngassa.<br />I do it for subsistence of my household, while the extra I sell at the landing site<Button onClick={handleClick}>ꔮ</Button>
                 <Snackbar
                     open={open}
-                    autoHideDuration={100000}
+                    autoHideDuration={10000}
                     onClose={handleCloseNote}
                     message="The landing site is mostly run around fish traders. They own or rent a boat from a 'chief', and hire a group of 3-4 fisherfolk to go fishing for him/her. He/she then sells the catch directly to consumers at the landing site, sells it wholesale to those who take it out of the village of Dei, or has it processed, sun-dried or smoked, and then transports it to the local sub-county markets. Those who have their own canoe or boat try to organise their own fishing trip for their own consumption by selling the surplus directly to consumers at the landing site, or join the other women in processing the fish to preserve it or sell it at markets."
                     action={action} />
