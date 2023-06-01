@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/beatrice/static/css/main.c0b690bc.css",
-    "main.js": "/beatrice/static/js/main.bcd9b6f3.js",
+    "main.css": "/beatrice/static/css/main.49addccd.css",
+    "main.js": "/beatrice/static/js/main.b54ecfb6.js",
     "static/js/787.005bbac6.chunk.js": "/beatrice/static/js/787.005bbac6.chunk.js",
     "static/media/water.png": "/beatrice/static/media/water.db26f585f554eb3eaea5.png",
     "static/media/agro.png": "/beatrice/static/media/agro.18deb0bf882d8958089b.png",
@@ -44,12 +44,12 @@
     "static/media/logo.png": "/beatrice/static/media/logo.505663c87488cba1c118.png",
     "static/media/license.png": "/beatrice/static/media/license.e59b26f6a65b9db62117.png",
     "index.html": "/beatrice/index.html",
-    "main.c0b690bc.css.map": "/beatrice/static/css/main.c0b690bc.css.map",
-    "main.bcd9b6f3.js.map": "/beatrice/static/js/main.bcd9b6f3.js.map",
+    "main.49addccd.css.map": "/beatrice/static/css/main.49addccd.css.map",
+    "main.b54ecfb6.js.map": "/beatrice/static/js/main.b54ecfb6.js.map",
     "787.005bbac6.chunk.js.map": "/beatrice/static/js/787.005bbac6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c0b690bc.css",
-    "static/js/main.bcd9b6f3.js"
+    "static/css/main.49addccd.css",
+    "static/js/main.b54ecfb6.js"
   ]
 }
