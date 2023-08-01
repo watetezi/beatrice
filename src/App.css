@@ -13,6 +13,10 @@ body {
   background-color: rgba(252, 250, 247, 1);
 }
 
+video{
+  object-fit: cover !important;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
