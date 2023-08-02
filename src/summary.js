@@ -1,6 +1,7 @@
 import './App.css';
 import * as React from "react"
 import Fullpage, { FullPageSections, FullpageSection, FullpageNavigation } from '@ap.cx/react-fullpage';
+import ReactPlayer from 'react-player';
 
 import CardContent from '@mui/material/CardContent';
 import Typography from '@mui/material/Typography';
@@ -94,6 +95,12 @@ const Summary = () => {
             <PamellaFish />
           </FullpageSection>
 
+          <FullpageSection style={{
+            backgroundColor: 'rgba(252, 250, 247, 1)',
+            height: '100vh',
+          }}>
+            <ReactPlayer width='100%' height='100%' controls url="https://www.alessandromusetta.com/geo/tiles/dei/data/MVI_8705.mp4" />
+          </FullpageSection>
 
           <FullpageSection style={{
             backgroundColor: 'rgba(252, 250, 247, 1)',
@@ -212,6 +219,13 @@ const Summary = () => {
                   message="Since 2016, Lake Albert's water level has been rising steadily, and during the rainy season it floods a large number of fishing villages. The map shows the areas that have been flooded by water over the past five years. Lack of natural shore defences causes the lake to easily flood such flat areas."
                   action={action} /> That makes agriculture difficult too, and yet we are running to it since fishing has declined<br /><br /></Typography>
             </CardContent>
+          </FullpageSection>
+
+          <FullpageSection style={{
+            backgroundColor: 'rgba(252, 250, 247, 1)',
+            height: '100vh',
+          }}>
+            <ReactPlayer width='100%' height='100%' controls url="https://www.alessandromusetta.com/geo/tiles/dei/data/MVI_8838.mp4" />
           </FullpageSection>
 
           <FullpageSection style={{
