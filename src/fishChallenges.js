@@ -57,21 +57,7 @@ const FishChallenges = () => {
 
     return (
 
-        <><CardContent sx={{ maxWidth: 800 }}>
-            <Typography component='div' className="sentence" sx={{ mt: 2 }}>You can spot me coming back from a fishing trip onboard any of the 80 between canoes and boats at Dei's landing sites. In 2020 there were 690 boats.<Button onClick={handleClick}>ꔮ</Button>
-                <Snackbar
-                    open={open}
-                    autoHideDuration={10000}
-                    onClose={handleCloseNote}
-                    message="Recent restrictions due to COVID-19, coupled with price fluctuations at the market, the unaffordability of the equipment required by the regulations introduced in 2021 and police persecution have reduced us to starvation due to the inability to put boats in the water at Dei landing sites. A little further north, at Kavango landing site, you won't find a single boat; just a couple of people hooping Tilapia with nets."
-                    action={action} /><br />Fishing becomes increasingly difficult :<br /><br /><Button onClick={handleClick}>NOTE ꔮ</Button>
-                <Snackbar
-                    open={open}
-                    autoHideDuration={10000}
-                    onClose={handleCloseNote}
-                    message="We are suffering the action of water pirates, perhaps from the Congolese side, who confiscate boats and abduct fisherfolk for ransom. And bilateral meetings fail to come up with solutions while leaders are not consulted. The Fish Patrol Units and UPDF, instead of countering these criminal dynamics, are militarising the Ugandan fishing sector and criminalising fisherfolk, due to the regulations introduced by the Fisheries and Aquaculture Act of 2022, to which fisherfolk are unable to comply in the short term. The biggest problem is the replacement of the majority of the equipment, starting from the minimum length of the boats (8 meters), to the fishing net size and their material, not to mention the increased fuel costs for those who navigate by motor, the increased cost of boat maintenance (strong winds on the lake crack them easily) and equipment theft. The risk of having one's boat set on fire on the suspicion of wrongdoing is extremely high. On August 19, 2021, many of us lost all our equipment, burned by the military in a large public demonstration. And above all, the lake has changed. More and more waterborne diseases are emerging, while generally the aquatic fauna is declining in the area in front of the landing site. Chemical contaminants, never before found, are polluting the water; they are the noxious substances and acids that some fishermen use to fish. We are also worried about possible oil spills eventually caused by oil exploitation projects on the shore opposite Dei, Buliisa district."
-                    action={action} /></Typography>
-        </CardContent>
+        <>
             <Box sx={{ width: '100%' }}>
                 <Grid container rowSpacing={1} columnSpacing={{ xs: 1, sm: 2, md: 3 }}>
                     <Grid item xs={3}>

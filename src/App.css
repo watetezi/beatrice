@@ -122,6 +122,7 @@ a:visited {
   font-size: 1em !important;
   letter-spacing: 3px !important;
   line-height: 1.4em !important;
+  word-break: break-word;
   -webkit-text-fill-color: rgb(105, 105, 105);
   -webkit-text-stroke-width: 0px;
   -webkit-text-stroke-color: rgb(114, 114, 114);
@@ -137,6 +138,7 @@ a:visited {
   font-size: 0.9em !important;
   letter-spacing: 2px !important;
   line-height: 1.4em !important;
+  word-break: break-word;
   -webkit-text-fill-color: rgb(105, 105, 105);
   -webkit-text-stroke-width: 0px;
   -webkit-text-stroke-color: rgb(114, 114, 114);
@@ -437,19 +439,22 @@ a:visited {
     font-size: 0.6em !important;
   }
 
+  .css-1qw96cp {
+    padding: 0 !important;
+  }
+
+  .css-46bh2p-MuiCardContent-root {
+    padding: 0 !important
+  }
+
   .fish {
     font-size: 0.8em !important;
   }
 
   .fishChallenges {
-    font-size: 0.6em !important;
+    font-size: 0.7em !important;
     letter-spacing: 0px !important;
     padding: 2px !important;
-
-  }
-
-  .MuiCardContent-root {
-    /* padding: 2px !important; */
   }
 
   .MuiSnackbarContent-message {

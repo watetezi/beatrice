@@ -167,6 +167,16 @@ const Summary = () => {
 
           <FullpageSection style={{
             backgroundColor: 'rgba(252, 250, 247, 1)',
+            height: '45vh',
+            padding: '1em',
+          }}>
+            <CardContent sx={{ maxWidth: 800 }}>
+              <Typography component='div' className="sentence" sx={{ mt: 2 }}>As women, we are in charge of the food production for the home, so we are also the custodians of seeds in the community<br /><br /></Typography>
+            </CardContent>
+          </FullpageSection>
+
+          <FullpageSection style={{
+            backgroundColor: 'rgba(252, 250, 247, 1)',
             height: '100vh',
             padding: '1em',
           }}>

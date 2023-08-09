@@ -69,9 +69,7 @@ const PamellaCrop = () => {
     )
 
     return (
-        <><CardContent sx={{ maxWidth: 800 }}>
-            <Typography component='div' className="sentence" sx={{ mt: 2 }}>As women, we are in charge of the food production for the home, so we are also the custodians of seeds in the community<br /><br /></Typography>
-        </CardContent>
+        <>
             <Box sx={{ width: '100%' }}>
                 <Grid container rowSpacing={1} columnSpacing={{ xs: 1, sm: 2, md: 3 }}>
                     <Grid item xs={3}>

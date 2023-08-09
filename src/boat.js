@@ -98,16 +98,6 @@ const Boat = () => {
     return (
 
         <><CardContent sx={{ maxWidth: 800 }}>
-            <Typography component='div' className="sentence" sx={{ mt: 2 }}>Our traditional boats, canoes and equipment are mostly outlawed.<Button onClick={handleClick} onClose={handleCloseNote}>ꔮ</Button>
-                <Snackbar
-                    open={open}
-                    autoHideDuration={10000}
-                    onClose={handleCloseNote}
-                    message="The Fisheries and Aquaculture Act, 2022 has completely transformed the lives of us fisherfolk. A lot of regulations were imposed out of the blue without giving any time to prepare ourselves. Our traditional canoes or boats are less than 8 metres long, the minimum length allowed. Legal fishing nets are difficult to get and too expensive (encouraging recourse to illegal rearing fishing or illegal fishing methods). We report GOU is currently enforcing compliance through seizure of boats and/or nets and that the seized items are routinely burnt by the law enforcement personnel. However, a review of the provisions of the law, sections 101 and 102 shows no provision in the Bill that gives the enforcement officers power to destroy and/or burn boats and nets once a suspect is arrested. The police seize or destroy the equipment of suspects abusing their power to the point of extrajudicial detention."
-                    action={action}
-                /> To comply with new government regulations, a fishing trip can cost up to the unattainable amount of UGX 7,700,000 (USD 2,000) per individual< br />< br /></Typography>
-
-
             <Accordion>
                 <AccordionSummary
                     expandIcon={<ExpandMoreIcon />}
@@ -142,7 +132,7 @@ const Boat = () => {
             </Accordion>
 
 
-            <Accordion>
+            <Accordion defaultExpanded={true}>
                 <AccordionSummary
                     expandIcon={<ExpandMoreIcon />}
                     aria-controls="panel1a-content"

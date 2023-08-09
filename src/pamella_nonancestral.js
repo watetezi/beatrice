@@ -94,7 +94,7 @@ const PamellaNonancestral = () => {
         </CardContent>
 
 
-            <Accordion defaultExpanded={true}>
+            <Accordion>
                 <AccordionSummary
                     expandIcon={<ExpandMoreIcon />}
                     aria-controls="panel1a-content"
