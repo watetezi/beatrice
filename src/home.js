@@ -346,7 +346,7 @@ const Home = () => {
             borderTop: '1px solid rgba(114, 114, 114, 0.5)'
           }}>
             <CardContent className='cc'>
-              <Typography component='div' className="footert" sx={{ mt: 2 }}>Many thanks to<div className='gagga'></div> which, through <div className='mama'></div><div className='packard'></div> allowed the women of Dei's sub-county to amplify their voices, thanks to the careful work of the Environmental Defenders team and the scientific coordination of Pamella Lakidi Achan<br /><br /><br />
+              <Typography component='div' className="footert" sx={{ mt: 2 }}>Many thanks to<div className='gagga'></div> which, through <div className='mama'></div><div className='packard'></div> allowed the women of Dei's sub-county to amplify their voices, thanks to the careful work of the Environmental Defenders team and the scientific coordination of Pamella Lakidi Achan and Alessandro Musetta<br /><br /><br />
               </Typography>
             </CardContent>
             <CardContent className='cc'>
